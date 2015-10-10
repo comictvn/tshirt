@@ -1,0 +1,440 @@
+-
+    name: white
+    slug: white
+    hexes: ['#000000']
+-
+    name: black
+    slug: black
+    hexes: ['#000000']
+-
+    name: red
+    slug: red
+    hexes: ['#d41c28']
+-
+    name: navy
+    slug: navy
+    hexes: ['#00224c']
+-
+    name: 'royal blue'
+    slug: royal-blue
+    hexes: ['#32409a']
+-
+    name: white/black
+    slug: white-black
+    hexes: ['#ffffff', '#000000']
+-
+    name: 'heather grey'
+    slug: heather-grey
+    hexes: ['#cbcbcb']
+-
+    name: purple
+    slug: purple
+    hexes: ['#6e2a81']
+-
+    name: peacock-blue
+    slug: peacock-blue
+    hexes: ['#1b6fa8']
+-
+    name: voucher
+    slug: voucher
+    hexes: ['#ffffff']
+-
+    name: orange
+    slug: orange
+    hexes: ['#fa4d10']
+-
+    name: 'kelly green'
+    slug: kelly-green
+    hexes: ['#1e9658']
+-
+    name: 'dark pink'
+    slug: dark-pink
+    hexes: ['#da0057']
+-
+    name: 'dark navy'
+    slug: dark-navy
+    hexes: ['#363342']
+-
+    name: black/white
+    slug: black-white
+    hexes: ['#000000', '#ffffff']
+-
+    name: pink
+    slug: pink
+    hexes: ['#f7b2d8']
+-
+    name: blue/white
+    slug: blue-white
+    hexes: ['#4a5ca9', '#ffffff']
+-
+    name: 'neon orange'
+    slug: neon-orange
+    hexes: ['#ff5727']
+-
+    name: brown
+    slug: brown
+    hexes: ['#432411']
+-
+    name: 'neon pink'
+    slug: neon-pink
+    hexes: ['#e24280']
+-
+    name: red/white
+    slug: red-white
+    hexes: ['#f33d2b', '#ffffff']
+-
+    name: asphalt
+    slug: asphalt
+    hexes: ['#333333']
+-
+    name: 'sun yellow'
+    slug: sun-yellow
+    hexes: ['#f6bc1a']
+-
+    name: raspberry
+    slug: raspberry
+    hexes: ['#9a3466']
+-
+    name: grey
+    slug: grey
+    hexes: ['#757575']
+-
+    name: 'dark red'
+    slug: dark-red
+    hexes: ['#a71d1f']
+-
+    name: white/red
+    slug: white-red
+    hexes: ['#ffffff', '#de3638']
+-
+    name: aqua
+    slug: aqua
+    hexes: ['#22dde3']
+-
+    name: 'grass green'
+    slug: grass-green
+    hexes: ['#669933']
+-
+    name: fuchsia
+    slug: fuchsia
+    hexes: ['#ed396c']
+-
+    name: white/white
+    slug: white-white
+    hexes: ['#ffffff', '#ffffff']
+-
+    name: 'sky blue'
+    slug: sky-blue
+    hexes: ['#bad0e4']
+-
+    name: black/grey
+    slug: black-grey
+    hexes: ['#000000', '#717069']
+-
+    name: lapis
+    slug: lapis
+    hexes: ['#373096']
+-
+    name: lemon
+    slug: lemon
+    hexes: ['#f7f794']
+-
+    name: 'gold '
+    slug: gold
+    hexes: ['#f4cb00']
+-
+    name: army
+    slug: army
+    hexes: ['#4a5544']
+-
+    name: 'neon yellow'
+    slug: neon-yellow
+    hexes: ['#d2f700']
+-
+    name: cranberry
+    slug: cranberry
+    hexes: ['#990033']
+-
+    name: 'light blue'
+    slug: light-blue
+    hexes: ['#cee8ee']
+-
+    name: 'dark grey'
+    slug: dark-grey
+    hexes: ['#505b55']
+-
+    name: 'forest green'
+    slug: forest-green
+    hexes: ['#025440']
+-
+    name: white/grey
+    slug: white-grey
+    hexes: ['#ffffff', '#a0a0a0']
+-
+    name: 'charcoal grey'
+    slug: charcoal-grey
+    hexes: ['#4d4c3e']
+-
+    name: 'Heather Black'
+    slug: heather-black
+    hexes: ['#545453']
+-
+    name: charcoal
+    slug: charcoal
+    hexes: ['#505754']
+-
+    name: green/white
+    slug: green-white
+    hexes: ['#056905', '#ffffff']
+-
+    name: eggplant
+    slug: eggplant
+    hexes: ['#551338']
+-
+    name: yellow
+    slug: yellow
+    hexes: ['#f2de33']
+-
+    name: 'golden orange'
+    slug: golden-orange
+    hexes: ['#f05600']
+-
+    name: 'mint green'
+    slug: mint-green
+    hexes: ['#b7f8ab']
+-
+    name: 'deep heather'
+    slug: deep-heather
+    hexes: ['#5a5a5a']
+-
+    name: black/black
+    slug: black-black
+    hexes: ['#000000', '#000000']
+-
+    name: 'light green'
+    slug: light-green
+    hexes: ['#49c838']
+-
+    name: 'classic red'
+    slug: classic-red
+    hexes: ['#c60812']
+-
+    name: 'light pink'
+    slug: light-pink
+    hexes: ['#f5e1f0']
+-
+    name: coral
+    slug: coral
+    hexes: ['#ff534c']
+-
+    name: green
+    slug: green
+    hexes: ['#07462c']
+-
+    name: sky
+    slug: sky
+    hexes: ['#70b4f2']
+-
+    name: white/navy
+    slug: white-navy
+    hexes: ['#ffffff', '#002e59']
+-
+    name: 'heather mid blue'
+    slug: heather-mid-blue
+    hexes: ['#649dbb']
+-
+    name: navy/ecru
+    slug: navy-ecru
+    hexes: ['#f4f2e2', '#27334e']
+-
+    name: 'heather green'
+    slug: heather-green
+    hexes: ['#088a61']
+-
+    name: 'dark grey heather'
+    slug: dark-grey-heather
+    hexes: ['#7f7f7e']
+-
+    name: chocolate
+    slug: chocolate
+    hexes: ['#665544']
+-
+    name: 'crystal pink'
+    slug: crystal-pink
+    hexes: ['#faccc8']
+-
+    name: 'heather blue'
+    slug: heather-blue
+    hexes: ['#879fcd']
+-
+    name: 'mermaid green'
+    slug: mermaid-green
+    hexes: ['#03aaa7']
+-
+    name: 'blue marble'
+    slug: blue-marble
+    hexes: ['#a8bada']
+-
+    name: 'heather navy'
+    slug: heather-navy
+    hexes: ['#38384c']
+-
+    name: navy/red
+    slug: navy-red
+    hexes: ['#1d253a', '#b31212']
+-
+    name: fuchsia/ecru
+    slug: fuchsia-ecru
+    hexes: ['#f4f2e2', '#d7356e']
+-
+    name: black/red
+    slug: black-red
+    hexes: ['#000000', '#f51e30']
+-
+    name: red/black
+    slug: red-black
+    hexes: ['#cc1212', '#000000']
+-
+    name: 'black/bright royal'
+    slug: black-bright-royal
+    hexes: ['#000000', '#243374']
+-
+    name: graphite/black
+    slug: graphite-black
+    hexes: ['#666666', '#000000']
+-
+    name: 'heather red'
+    slug: heather-red
+    hexes: ['#d44848']
+-
+    name: 'red marble'
+    slug: red-marble
+    hexes: ['#f68e95']
+-
+    name: 'gray marble'
+    slug: gray-marble
+    hexes: ['#c6c6c6']
+-
+    name: purple/white
+    slug: purple-white
+    hexes: ['#743981', '#ffffff']
+-
+    name: 'Heather Navy'
+    slug: heather-navy
+    hexes: ['#86878f']
+-
+    name: 'heather plum'
+    slug: heather-plum
+    hexes: ['#c27a91']
+-
+    name: khaki
+    slug: khaki
+    hexes: ['#b9b87f']
+-
+    name: 'white/dark green'
+    slug: white-dark-green
+    hexes: ['#ffffff', '#2d5c47']
+-
+    name: white/yellow
+    slug: white-yellow
+    hexes: ['#ffffff', '#efaa13']
+-
+    name: white/orange
+    slug: white-orange
+    hexes: ['#ffffff', '#fc5a02']
+-
+    name: 'white/cobalt blue'
+    slug: white-cobalt-blue
+    hexes: ['#ffffff', '#0c0566']
+-
+    name: bordeaux
+    slug: bordeaux
+    hexes: ['#750033']
+-
+    name: 'light grey'
+    slug: light-grey
+    hexes: ['#c3b8b6']
+-
+    name: bottlegreen
+    slug: bottlegreen
+    hexes: ['#006c49']
+-
+    name: turquois
+    slug: turquois
+    hexes: ['#0ac7df']
+-
+    name: 'baby blue'
+    slug: baby-blue
+    hexes: ['#c0cad2']
+-
+    name: azalea
+    slug: azalea
+    hexes: ['#f78fad']
+-
+    name: rose
+    slug: rose
+    hexes: ['#e1c2c7']
+-
+    name: blue/blue
+    slug: blue-blue
+    hexes: ['#222244', '#222244']
+-
+    name: 'neon green'
+    slug: neon-green
+    hexes: ['#a7ed08']
+-
+    name: 'dark green'
+    slug: dark-green
+    hexes: ['#215d31']
+-
+    name: 'noble brown'
+    slug: noble-brown
+    hexes: ['#463c26']
+-
+    name: 'moss green'
+    slug: moss-green
+    hexes: ['#58602a']
+-
+    name: 'salt & pepper'
+    slug: salt-pepper
+    hexes: ['#f0f0f0']
+-
+    name: 'fuchsia red'
+    slug: fuchsia-red
+    hexes: ['#e53b82']
+-
+    name: leafgreen
+    slug: leafgreen
+    hexes: ['#4d8329']
+-
+    name: 'kelly green '
+    slug: kelly-green
+    hexes: ['#0f9b26']
+-
+    name: granite
+    slug: granite
+    hexes: ['#878187']
+-
+    name: beige
+    slug: beige
+    hexes: ['#cbb48e']
+-
+    name: navy/white
+    slug: navy-white
+    hexes: ['#303047', '#ffffff']
+-
+    name: yellow/black
+    slug: yellow-black
+    hexes: ['#fcd002', '#000000']
+-
+    name: orange/black
+    slug: orange-black
+    hexes: ['#fb7216', '#000000']
+-
+    name: lime/ecru
+    slug: lime-ecru
+    hexes: ['#f4f2e2', '#a8c57a']
+-
+    name: Untitled
+    hexes: ['#00ff00']
+    slug: untitled

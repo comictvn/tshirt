@@ -1,0 +1,8 @@
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "http://localhost:8000"
+</IfModule>
+
+<filesMatch "\.(yml|sqlite|txt)$">
+	Order Allow,Deny
+	Deny from all
+</filesMatch>
