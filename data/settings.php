@@ -12,5 +12,5 @@
   'paypal_password' => '',
   'paypal_signature' => '',
   'paypal_environment' => 'sandbox',
-  'site_url' => 'http://localhost/upload',
+  'site_url' => 'http://128.199.251.247/tshirt',
 );
