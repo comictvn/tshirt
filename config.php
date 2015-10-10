@@ -61,7 +61,7 @@ if(isset($_GET['display_errors']) && $_GET['display_errors'] == 'on') {
 	$_SESSION['display_errors'] = $_GET['display_errors'];
 }
 
-if(isset($_GET['display_errors']) && $_GET['display_errors'] == 'off') {
+if(isset($_GET['display_errors']) && $_GET['display_errors'] == 'on') {
 	$_SESSION['display_errors'] = $_GET['display_errors'];
 }
 
