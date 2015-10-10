@@ -1,0 +1,11 @@
+colors:
+    1: '1.50'
+    2: '2.25'
+    3: '3.00'
+    4: '4.00'
+    5: '50.00'
+    INF: '6.00'
+delivery_types:
+    - { name: 'Normal Delivery', price: '3.90' }
+    - { name: 'First Class Delivery', price: '4.30' }
+    - { name: 'One-day Delivery', price: '9.70' }
