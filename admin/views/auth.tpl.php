@@ -9,8 +9,8 @@
 
     <!-- Le styles -->
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-	<link href="<?= site_url('css/bootstrap.css') ?>" rel="stylesheet">
-	<link href="<?= site_url('css/theme.css') ?>" rel="stylesheet">
+	<link href="<?= base_url('css/bootstrap.css') ?>" rel="stylesheet">
+	<link href="<?= base_url('css/theme.css') ?>" rel="stylesheet">
 	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.2/jquery.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 <style>
@@ -18,7 +18,7 @@
 
 body {
     background-color: #2E3037;
-}
+	}
 
 div.member_signin {
     text-align: center;
@@ -78,6 +78,7 @@ p.forgotpass a {
         </div>
         <p class="member">Admin Login</p>
         <form role="form" class="loginform" action="<?= site_url('auth/login') ?>" method="POST">
+			
         		<? if(isset($_SESSION['error'])) : ?>
 		<div class="alert alert-warning" role="alert"><?= $_SESSION['error'] ?></div>		
 	<? endif; ?>

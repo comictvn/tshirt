@@ -1,20 +1,18 @@
 <?php
-	
+
 require_once __DIR__ . '/../bootstrap.php';
 require_once __DIR__ . "/functions.php";
 if (function_exists('xdebug_disable')) {
 	xdebug_disable();
 }
 
+#echo $_SERVER['REQUEST_URI'];die();
 // Short tags must be enabled
 if (!ini_get('short_open_tag')) {
 	die("ERROR - Please make sure you have short tags enabled e.g. 'short_open_tag = On'\n");
 }
 
-use PHPRouter\RouteCollection;
-use PHPRouter\Router;
-use PHPRouter\Route;
-//error_reporting(E_ALL);
+
 session_start();
 if(!isset($_SESSION['logged_in'])) {
 	$_SESSION['logged_in'] = false;
@@ -29,6 +27,7 @@ include __DIR__ . "/controllers/ProductsController.php";
 include __DIR__ . "/controllers/OrdersController.php";
 include __DIR__ . "/controllers/PricingController.php";
 include __DIR__ . "/controllers/SettingsController.php";
+include __DIR__ . "/controllers/PaymentMethodsController.php";
 
 //include the routes we need
 include __DIR__ . "/routes.php";

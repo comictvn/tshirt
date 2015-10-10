@@ -17,7 +17,69 @@
     <form role="form" action="<?= site_url('settings/save') ?>" method="POST">
         
       <div class="row">
-          <div class="col-md-2"><h5>Colors cost</h5></div>
+		<div class="col-md-12"><h5><i class="fa fa-chevron-right"></i> Bulk discounts</h5></div>
+          <div class="col-md-12">
+			  <table class="table table-bordered table-pricing">
+			  <tbody>
+				<tr>
+				  <th scope="row">Quantity from</th>
+				  <td ng-repeat="(bulk_key, bulk_discount) in bulk_discounts">
+					  <input type="text" class="input-pricing" name="bulk_discount[{bulk_key}]['from']" ng-model="bulk_discount.from" ng-change="changeBulkLimits(bulk_key)" maxlength="4" />
+				  </td>
+				</tr>				
+				<tr>
+				  <th scope="row">Quantity to</th>
+				  <td ng-repeat="bulk_discount in bulk_discounts">
+					  <input type="text" class="input-pricing" disabled ng-model="bulk_discount.to" maxlength="4" />
+				  </td>
+				</tr>					
+				<tr>
+				  <th scope="row">Discount (%)</th>
+				  <td ng-repeat="bulk_discount in bulk_discounts">
+					  <input type="text" class="input-pricing" name="bulk_discount[{bulk_key}]['discount']" ng-model="bulk_discount.discount" maxlength="4" />
+				  </td>
+				</tr>
+
+			  </tbody>
+			</table>
+			 <em>Note: Leave the "Quantity from" value empty to ignore.</em>
+		</div>
+	  </div>
+	  <br />
+	  
+	  <br />        
+	  <br />        
+      <div class="row">
+		<div class="col-md-12"><h5><i class="fa fa-chevron-right"></i> Pricing per additional side (e.g. front, back)</h5></div>
+          <div class="col-md-12">
+			  <table class="table table-bordered table-pricing">
+			  <tbody>
+				<tr>
+				  <th scope="row"></th>
+				  <th scope="row" colspan="6" class="text-center">Number of additional sides to print</th>
+				</tr>			
+				<tr>
+					<th scope="row"></th>
+					<? foreach($pricing['charges_per_side'] as $value) : ?>
+					<td class="text-center"><?= $value['sides'] ?></td>
+					<? endforeach; ?>
+				</tr>				
+				<tr>
+				  <th scope="row">Extra charge (<?= $currency ?>)</th>
+				  <td ng-repeat="charge in charges_per_side" class="text-center">
+					<input type="text" class="input-pricing" ng-model="charge.price" money maxlength="4" />
+				  </td>
+				</tr>
+			  </tbody>
+			</table>
+			 
+		</div>
+	  </div>
+	  <br />
+	  	  <br />    
+	  <br />
+      <div class="row">
+          <div class="col-md-2"><h5><i class="fa fa-chevron-right"></i> Colors cost</h5></div>
           
           <div class="col-md-8">
 
@@ -34,7 +96,7 @@
                         <td><p class="form-control-static"><span ng-hide="$last">{{color_key}} colors</span><span ng-show="$last">{{$index+1}}+ colors and photos</span></p></td>
                         <td>
                           <div class="input-group">
-                            <input type="number"  min="0" max="9999" step="0.01" size="4" class="form-control" ng-model="color_pricing[color_key]"/>
+                            <input type="text" money min="0" max="9999" step="0.01" size="4" class="form-control text-right" ng-model="color_pricing[color_key]"/>
                             <span class="input-group-addon"><?= $currency ?></span>
                           </div>
                         </td>
@@ -49,10 +111,10 @@
           </div>
       </div>        
         <br />
-        <hr />
+        
         <br />
       <div class="row">
-          <div class="col-md-2"><h5>Postage cost</h5></div>
+          <div class="col-md-2"><h5><i class="fa fa-chevron-right"></i> Postage cost</h5></div>
           
           <div class="col-md-8">
             
@@ -70,7 +132,7 @@
                         <td><input type="text" class="form-control" ng-model="delivery.name" /></td>
                         <td>
                             <div class="input-group">
-                              <input type="number" step="0.01" class="form-control" ng-model="delivery.price" min="0" />
+                              <input type="text" money step="0.01" class="form-control text-right" ng-model="delivery.price" min="0" />
                               <span class="input-group-addon"><?= $currency ?></span>
                             </div>
                         </td>
@@ -105,10 +167,24 @@ var pricing = <?= json_encode($pricing); ?>;
 function PricingController($scope, $http, SweetAlert) {
 	window.scope = $scope;
 
+    $scope.bulk_discounts = pricing['bulk_discounts'];
+    $scope.charges_per_side = pricing['charges_per_side'];
     $scope.color_pricing = pricing['colors'];
     $scope.delivery_types = pricing['delivery_types'];
     $scope.saving = false;
     
+    $scope.changeBulkLimits = function(key) {
+		
+		if ( $scope.bulk_discounts.hasOwnProperty(key+1) ) {
+			$scope.bulk_discounts[key]['to'] = parseInt($scope.bulk_discounts[key+1]['from']) - 1;
+		}
+		
+		if ( $scope.bulk_discounts.hasOwnProperty(key-1) ) {
+			$scope.bulk_discounts[key-1]['to'] = parseInt($scope.bulk_discounts[key]['from']) - 1;
+		}
+		
+    };
+	
     $scope.addColor = function() {
         $scope.color_pricing[_.size($scope.color_pricing)] = $scope.color_pricing['INF'];
         $scope.color_pricing['INF'] = $scope.color_pricing[_.size($scope.color_pricing)];
@@ -130,6 +206,8 @@ function PricingController($scope, $http, SweetAlert) {
     $scope.save = function() {
         $scope.saving = true;
         $http.post('<?= site_url("pricing/save") ?>', {
+            bulk_discounts:$scope.bulk_discounts,
+            charges_per_side:$scope.charges_per_side,
             colors:$scope.color_pricing,
             delivery_types: $scope.delivery_types
         }).

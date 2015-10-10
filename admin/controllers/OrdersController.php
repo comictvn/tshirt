@@ -20,7 +20,7 @@ class OrdersController extends BaseController
 			$page = (int) $_GET['page'];
 		}
 		$page_no = $page - 1;		
-		$orders = Order::orderBy('processed', 'DESC')
+		$orders = Order::orderBy('dispatched_on', 'DESC')
 					->orderBy('created_at', 'DESC')
 					->where('confirmed', 1);
 		$query = null;
@@ -75,15 +75,18 @@ class OrdersController extends BaseController
 			redirect_to('orders');
 			die();
 		}
-		
+		#dd($order);
 		$this->data['order'] = $order;
 		$this->data['customer_details'] = json_decode($order->customer_details);		
 		$this->data['payment_details'] = json_decode($order->payment_details);		
 		$this->data['cart'] = $this->formatCart($order->cart);		
+		#dd($this->data['cart']);
 		$this->data['subtotal'] = $this->getSubTotal($this->data['cart']);		
 		$this->data['fonts_required'] = $this->getFontsRequired($this->data['cart']);
 		$this->data['carbon'] = new Carbon();
-		
+		$settings = include '../data/settings.php';
+		$this->data['print_format'] = $settings['print_format'];
+
 		$this->data['imagick_not_installed'] = (!extension_loaded('imagick'));
 		echo $this->view->render('orders_view.tpl.php', $this->data);
 	}
@@ -134,22 +137,108 @@ class OrdersController extends BaseController
 		
 		$data = base64_decode($data);
 		
+		$dpi = 300;
+		$printable_width = ($dims['printable_width'] * $dpi)/25.4;
+		$printable_height = ($dims['printable_height'] * $dpi)/25.4;
+		#dd($printable_width, $printable_height);
 		//convert to 300dpi
 		$im = new Imagick();
 		$im->setResolution(300, 300);
 		$im->readImageBlob($data);
 		$im->setImageUnits(imagick::RESOLUTION_PIXELSPERINCH);
 		
-		//save as TIFF 300dpi
-		$im->setImageFormat("tiff");
-		$im->setImageCompression(Imagick::COMPRESSION_LZW); //reduce file size
+		$settings = include '../data/settings.php';
+		$format = $settings['print_format'];
 		
+		//save as TIFF 300dpi
+		/*if($format == 'tiff') {
+			$im->setImageFormat("tiff");
+			$im->setImageCompression(Imagick::COMPRESSION_LZW); //reduce file size
+		}		
+		if($format == 'png') {
+			$im->setImageFormat("png");
+		}		
+		if($format == 'pdf') {
+			$im->setImageFormat("pdf");
+			$im->resizeImage($printable_width,$printable_height,Imagick::FILTER_LANCZOS,1);
+		}*/
+		$im->setImageFormat("pdf");
+		$im->resizeImage($printable_width,$printable_height,Imagick::FILTER_LANCZOS,1);
+			
 		$im->writeImage($path);
 		$im->clear();
 		$im->destroy();	
+	}
+	
+    public function postPrintPDF() {
+		#resize svg 		 : python svg-resize.py test.svg r.svg -x 266.616682285 -y 430.8716026188
+		#convert svg to pdf  : wkhtmltopdf r.svg r.pdf
+	}
 		
+    public function postDownload() {
+		$json = file_get_contents('php://input');
+		$post = json_decode($json, true);
+		
+		
+		//set up storage path
+		$order_id = $post['order_id'];
+		$cart_index = $post['index'];
+		$orientation = $post['orientation'];
+		$order = Order::find($order_id);
+		
+		$storage_dir = "../storage/orders/";
+		$folder = md5($order_id);
+		$hash_folder = $folder[0]."/".$folder[1]."/".$folder."/";
+		$hash_path = $storage_dir.$hash_folder;
+		if(!is_dir($hash_path)) {
+			mkdir($hash_path, 0777, true);
+		}
+		
+		
+		
+		$images = [];
+		foreach(json_decode($order->cart, true)[$cart_index]['canvases'][$orientation]['objects'] as $object) {
+			
+			if($object['type'] == 'image') {
+				$images[] = __DIR__ . '/../../storage/' .  end(explode('storage/', $object['src']));
+			}
+			
+		}
+		
+		if(count($images) == 0) {
+			$results = [];
+			$results['status'] = false;
+			$results['msg'] = 'No images found';
+			echo json_encode( $results );
+		}
+		
+		$zip = new ZipArchive();
+		$filename = "$cart_index-$orientation.zip";
+		$zip_file = $hash_path . $filename;
+		if(file_exists($zip_file)) {
+			unlink ($zip_file);
+		}
+		
+		$res = $zip->open($zip_file, ZIPARCHIVE::CREATE);
+		
+		if ($res === TRUE) {			
+			foreach($images as $image) {				
+				if(file_exists($image)) {
+					$zip->addFromString(basename($image), file_get_contents($image));
+				}
+			}
+		} else {
+			var_dump($res);
+		}
+		$zip->close();
+		
+		$results = [];
+		$results['status'] = true;
+		$results['path'] = $zip_file;
+		echo json_encode( $results );
 		
 	}
+
 	
     public function postPrint() {
 	
@@ -173,7 +262,11 @@ class OrdersController extends BaseController
 		if(!is_dir($hash_path)) {
 			mkdir($hash_path, 0777, true);
 		}
-		$path = $hash_path.$index.'-'.$selected_orientation.'.tiff';
+		
+		$settings = include '../data/settings.php';
+		$print_format = $settings['print_format'];
+		
+		$path = $hash_path.$index.'-'.$selected_orientation.'.' . $print_format;
 		
     	//find the real width and height in mm
     	$product = Yaml::parse(file_get_contents('../data/products/'.$product.'.yml'));
@@ -190,8 +283,12 @@ class OrdersController extends BaseController
 		$this->printable_height = ($dims['printable_height'] * $this->dpi)/25.4;
 		
 		if(!file_exists($path)) {
-			//if html5 we use high_res_img
-			$this->convertHiRes($post['high_res_img'], $dims, $path);
+			if($print_format == 'svg') {
+				file_put_contents ( $path, $post['svg']);
+			} else {
+				//if html5 we use high_res_img
+				$this->convertHiRes($post['high_res_img'], $dims, $path);
+			}
 		}
 		
 		echo json_encode(['path' => $path]);
@@ -204,15 +301,26 @@ class OrdersController extends BaseController
 
 		$id = $post['id'];		
     	$notes = $post['notes'];
-    	$dispatched = (int) $post['dispatched'];
+    	$payment_status = $post['payment_status'];
+    	$fulfillment_status = $post['fulfillment_status'];
+		
+		$dispatched = 0;
+		if($fulfillment_status == 'shipped') {
+			$dispatched = 1;
+		}		
+		if($fulfillment_status == 'ready_for_pickup') {
+			$dispatched = 1;
+		}
 		
 		$order = Order::find($id);
 		$order->notes = $notes;
+		$order->payment_status = $payment_status;
+		$order->fulfillment_status = $fulfillment_status;
 		
 		$error = '';
-		if($dispatched) {
+		if($dispatched && !$order->dispatched) {
 			$order->dispatched = $dispatched;
-			$order->dispatched_on = Carbon::now();
+			$order->dispatched_on = Carbon::now();			
 			
 			//send an email
 			$settings = include '../data/settings.php';
@@ -222,8 +330,11 @@ class OrdersController extends BaseController
 			$mail->addAddress($order->email, $order->firstname .' '. $order->lastname); //Set who the message is to be sent to
 			$mail->Subject = 'Your '.$settings['site_name'].' order';
 			$message = file_get_contents('../data/emails/order_dispatched.txt');
+			if($order->fulfillment_status == 'ready_for_pickup') {
+				$message = file_get_contents('../data/emails/order_pickup.txt');
+			}
 			$message = str_replace("{name}", $order->firstname .' '. $order->lastname, $message);
-			$message = str_replace("{transaction_id}", $order->transaction_id, $message);
+			$message = str_replace("{transaction_id}", $order->id, $message);
 			$message = str_replace("{site_name}", $settings['site_name'], $message);
 			$mail->Body = $message;
 			if(!$mail->send()) {

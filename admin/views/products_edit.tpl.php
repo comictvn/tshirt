@@ -155,7 +155,10 @@
                 <!--<input type="text" class="form-control" ng-model="variant.name"><br />-->
                 <div class="row">
                     <div class="col-md-10">
-                        <select ng-change="updateVariant(key, variant, choice)" ng-model="variant.name" ng-options="choice for choice in variantChoices"  style="width: 110px;"></select>
+                        <select ng-change="updateVariant(key, variant, choice)" ng-model="variant.name" ng-options="choice for choice in variantChoices"  style="width: 110px;"></select><br style="clear: both"/>
+						<!--<div ng-repeat="hex in variant.hexes" style="background:{{hex}};width: 11px;height: 11px;display: block;border: 1px solid #000;"></div>-->
+						<div ng-repeat="hex in variant.colors track by $index" style="float:left; background:{{hex}};width: 11px;height: 11px;display: block;border: 1px solid #000;"></div>
+
                     </div>
                     <div class="col-md-2">
                         <!--<a ng-if="$last" class="btn btn-default btn-block" href="" ng-click="addVariantType()"><i class="fa fa-plus"></i> New type</a>-->
@@ -170,7 +173,7 @@
                 <div flow-init="{singleFile:true, target: '<?= site_url('products/upload/') ?>', query:{slug:'<?= $product['slug'] ?>', variant:variant.name, orientation:orientation.name}}" flow-files-submitted="$flow.upload()" flow-file-added="!!{png:1,jpg:1}[$file.getExtension()]" flow-file-success="uploader.controllerFn($flow, $file, $message, variant, orientation)">
 
                     <div class="" ng-show="!$flow.files.length">
-                        <img ng-if="variant.orientations[orientation.name]" src="<?= site_url('../data/images/') ?>{{variant.orientations[orientation.name]}}"  style="width: 80px"/>
+                        <img ng-if="variant.orientations[orientation.name]" ng-src="<?= base_url('../data/images/') ?>{{variant.orientations[orientation.name]}}"  style="width: 80px"/>
                     </div>
 
                     <div class="" ng-show="$flow.files.length" style="width: 120px; height: 120px; display: block; background: #000;">
@@ -314,7 +317,7 @@
                  <div style="position: absolute; z-index: 600; width: {{selectedOrientationDimensions.printableWidth}}px; height: {{selectedOrientationDimensions.printableHeight}}px; top: {{selectedOrientationDimensions.printableOffsetY}}px; left: {{selectedOrientationDimensions.printableOffsetX}}px; display: block;">
 
                   <div style="width: 100%; height: 100%; z-index: 310; position: absolute; overflow: hidden;">
-                   <img src="{{imageUrl( {product:form.slug, w:460, h:460, variant:form.defaultVariant.slug, orientation:form.orientations[selectedOrientation].name} )}}" style="border: medium none; visibility: visible; margin: 0px; padding: 0px; position: absolute; top: -{{selectedOrientationDimensions.printableOffsetY}}px; left: -{{selectedOrientationDimensions.printableOffsetX}}px; width: 460px; height: 460px;">
+                   <img ng-src="{{imageUrl( {product:form.slug, w:460, h:460, variant:form.defaultVariant.slug, orientation:form.orientations[selectedOrientation].name} )}}" style="border: medium none; visibility: visible; margin: 0px; padding: 0px; position: absolute; top: -{{selectedOrientationDimensions.printableOffsetY}}px; left: -{{selectedOrientationDimensions.printableOffsetX}}px; width: 460px; height: 460px;">
                    <div style="position: absolute; opacity: 0.4;" class="jcrop-hline"></div>
                    <div style="position: absolute; opacity: 0.4;" class="jcrop-hline bottom"></div>
                    <div style="position: absolute; opacity: 0.4;" class="jcrop-vline right"></div>
@@ -327,7 +330,7 @@
            <div class="jcrop-tracker" style="width: 464px; height: 464px; position: absolute; top: -2px; left: -2px; z-index: 290; cursor: pointer;"></div>
 
            <input type="radio" style="position: fixed; left: -120px; width: 12px; display: none;" class="jcrop-keymgr">
-           <img src="{{imageUrl( {product:form.slug, w:460, h:460, variant:form.defaultVariant.slug, orientation:form.orientations[selectedOrientation].name} )}}" style="display: block; visibility: visible; width: 460px; height: 460px; border: medium none; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; opacity: 0.6;">
+           <img ng-src="{{imageUrl( {product:form.slug, w:460, h:460, variant:form.defaultVariant.slug, orientation:form.orientations[selectedOrientation].name} )}}" style="display: block; visibility: visible; width: 460px; height: 460px; border: medium none; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; opacity: 0.6;">
 
        </div>
 
@@ -353,7 +356,7 @@
             <div class="form-group">
                 <div class="row">
                     <div class="col-md-10">
-                        <input type="text" class="form-control" ng-model="size">
+                        <input type="text" class="form-control" ng-model="size.name">
                     </div>
                     <div class="col-md-2">
                         <a href=""  class="remove-field" ng-click="removeSize(size)"><i class="fa fa-times"></i></a>
@@ -418,7 +421,7 @@ function ProductController($scope, $http, SweetAlert, $modal) {
         $scope.form.variants = [
 			{name:'White', price:'1000', orientations:{}}
         ];        
-        $scope.form.sizes = [ 'S', 'M', 'L' ];
+		$scope.form.sizes = [ {name:'S'}, {name:'M'}, {name:'L'} ];
 
         $scope.form.defaultVariant = $scope.form.variants[ 0 ];
 
@@ -453,7 +456,7 @@ function ProductController($scope, $http, SweetAlert, $modal) {
 		variant.name = newChoice.name;
         variant.slug = newChoice.slug;
         variant.additional_price = newChoice.additional_price;
-        variant.colors = newChoice.colors;
+        variant.colors = newChoice.hexes;
         variant.hexes = newChoice.hexes;
         variant.price = newChoice.price;
         variant.orientations = {};
@@ -529,14 +532,14 @@ function ProductController($scope, $http, SweetAlert, $modal) {
 	
 	$scope.cacheNumber = 1;
     $scope.imageUrl = function(data) {
-        return "<?= site_url("../api/image.php?") ?>" + $.param( data ) + "&nocache=" + $scope.cacheNumber;
+        return "<?= base_url("../api/image.php?") ?>" + $.param( data ) + "&nocache=" + $scope.cacheNumber;
     };
 
     $scope.addOrientation = function() {
         $scope.form.orientations.push({name:'Untitled ' + $scope.form.orientations.length});
     };
     $scope.addSize = function() {
-        $scope.form.sizes.push('Untitled ' + $scope.form.sizes.length);
+		$scope.form.sizes.push({name:'Untitled ' + $scope.form.sizes.length});
     };
 
     $scope.uploader = {
@@ -561,9 +564,19 @@ function ProductController($scope, $http, SweetAlert, $modal) {
 		};
 
         $scope.addVariant = function() {
-            var myVariant = _.first(variants);
-            myVariant.orientations = {};
-            $scope.form.variants.push(myVariant);
+			
+			var newChoice = _.first(variants);
+			
+			var variant = {};
+			variant.name = newChoice.name;
+			variant.slug = newChoice.slug;
+			variant.additional_price = newChoice.additional_price;
+			variant.colors = newChoice.hexes;
+			variant.hexes = newChoice.hexes;
+			variant.price = newChoice.price;
+			variant.orientations = {};
+			
+            $scope.form.variants.push(variant);
         };
 
         $scope.addVariantType = function() {
@@ -738,10 +751,12 @@ function ProductController($scope, $http, SweetAlert, $modal) {
         myVariant.name = $scope.variant.name;
         myVariant.slug = $scope.slugify($scope.variant.name);
         myVariant.hexes = [];
+        myVariant.colors = [];
         _.each($scope.variant.hexes, function(hex, i) {
             console.log(i, hex);
             if(hex != '') {
                 myVariant.hexes.push(tinycolor(hex).toHexString());
+                myVariant.colors.push(tinycolor(hex).toHexString());
             }
         });
 

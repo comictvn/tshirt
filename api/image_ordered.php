@@ -32,7 +32,7 @@ foreach($cart[$index]->product->orientations as $orientaion_dims) {
 
 $image = $cart[$index]->variant->orientations->$orientation;
 $image_file = $data_dir . "images/" . $image;
-
+#dd($image_file);
 $manager = new ImageManager(array('driver' => 'gd'));
 $image = $manager->make($image_file)->resize($dims->width, $dims->height);
 

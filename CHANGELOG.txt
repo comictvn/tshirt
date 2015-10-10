@@ -1,3 +1,23 @@
+PrintPixel 1.0.7, 25/04/2015
+--------------------------------------------
+- Removed the need for mod_rewrite
+- Ability to print in low-res without ImageMagic
+- Added ability to download user uploaded images
+
+PrintPixel 1.0.6, 05/02/2015
+--------------------------------------------
+- Added ability to add bulk discounts
+- Added ability to add additional prices per side
+- Added ability to additional prices per variant (via yaml)
+- Added "Ready for pick-up" fulfilment status
+
+PrintPixel 1.0.5, 17/01/2015
+--------------------------------------------
+- Added multiple payment options in checkout
+- Added new payment option : Bank transfer
+- Added ability to download design by svg, png, tiff or pdf
+- Added translation ability (via a .po file)
+
 PrintPixel 1.0.4, 08/01/2015
 --------------------------------------------
 - Added new payment option : PayPal Express Checkout

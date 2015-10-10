@@ -6,8 +6,16 @@
  *  
  */
 
+function base_url($path = null) {
+	$app = \Slim\Slim::getInstance();
+	$base_url = $app->request->getRootUri();
+	$admin_url = str_replace("/index.php", "", $base_url);
+    return $admin_url.'/'.$path;
+    #return ADMIN_URL.'/'.$path;
+}
+
 function site_url($path = null) {
-    return ADMIN_URL.'/'.$path;
+    return base_url('').'index.php/'.$path;
 }
 
 function api_url($path = null) {
@@ -25,22 +33,31 @@ function get_segment($position) {
 }
 
 function redirect_to($path = null, $data = null) {
-	if(current_url() == '/'.$path) {
-		return false;
-	}
+
     if($data) {
-        if(isset($data['success']))
+        if(isset($data['success'])) {
             $_SESSION['success'] = $data['success'];
-        if(isset($data['error']))
-            $_SESSION['error'] = $data['error'];        
-        if(isset($data['vars']))
+		}
+        if(isset($data['error'])) {
+            $_SESSION['error'] = $data['error'];
+		}
+        if(isset($data['vars'])) {
             $_SESSION['vars'] = $data['vars'];
+		}
     }
+	
+	#$app = \Slim\Slim::getInstance();
+	#$app->redirect(site_url($path));
     header('Location: '. site_url($path));
     exit();
 }
 
+use Cocur\Slugify\Slugify;
+
+
 function slugify($text) { 
+	$slugify = new Slugify();
+	return $slugify->slugify($text);
     // replace non letter or digits by -
     $text = preg_replace('~[^\\pL\d]+~u', '-', $text);
     $text = trim($text, '-');

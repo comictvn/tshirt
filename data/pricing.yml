@@ -1,9 +1,27 @@
+bulk_discounts:
+    - { from: 0, to: 24, discount: 0 }
+    - { from: 25, to: 59, discount: 2.5 }
+    - { from: '60', to: 99, discount: '7' }
+    - { from: '100', to: 299, discount: 10 }
+    - { from: 300, to: 599, discount: 15 }
+    - { from: 600, to: 1499, discount: 17.5 }
+    - { from: 1500, to: 2999, discount: 20 }
+    - { from: 3000, to: 4999, discount: 22.5 }
+    - { from: '5000', to: INF, discount: '' }
+    - { from: '', to: '', discount: '' }
+charges_per_side:
+    - { sides: 1, price: 0 }
+    - { sides: 2, price: 1.5 }
+    - { sides: 3, price: 2.25 }
+    - { sides: 4, price: 3 }
+    - { sides: 5, price: 4 }
+    - { sides: 6, price: 4 }
 colors:
     1: '1.50'
     2: '2.25'
     3: '3.00'
     4: '4.00'
-    5: '50.00'
+    5: '5.00'
     INF: '6.00'
 delivery_types:
     - { name: 'Normal Delivery', price: '3.90' }

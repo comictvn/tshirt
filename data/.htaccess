@@ -1,8 +1,4 @@
 <IfModule mod_headers.c>
-    Header set Access-Control-Allow-Origin "http://localhost:8000"
+    #Header set Access-Control-Allow-Origin "http://tshirt.expresspixel.dev"
+    Header set Access-Control-Allow-Origin *
 </IfModule>
-
-<filesMatch "\.(yml|sqlite|txt)$">
-	Order Allow,Deny
-	Deny from all
-</filesMatch>

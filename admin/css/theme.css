@@ -125,3 +125,25 @@ body {
   display: block;
   border: 1px solid #000;
 }
+.status-disabled {
+  color: #b4bcc2;
+}
+.status-enabled i {
+  color: #468847;
+}
+.real-link {
+  text-decoration: underline;
+}
+.payment-selected {
+  font-weight: bold;
+}
+.table-pricing input.input-pricing {
+  width: 50px;
+  text-align: center;
+}
+input {
+  border: 1px solid #A9A9A9;
+}
+.modal-body .canvas-container {
+  margin: 0 auto;
+}

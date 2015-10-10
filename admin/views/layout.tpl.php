@@ -8,7 +8,7 @@
     <meta name="author" content="">
 
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -18,26 +18,30 @@
 	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.js"></script>
 	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.js"></script>
 	<script type="text/javascript" src="http://fabricjs.com/lib/fabric.js"></script>
-	<script type="text/javascript" src="<?= site_url('js/ng-flow-standalone.min.js') ?>"></script>
-	<script type="text/javascript" src="<?= site_url('js/SweetAlert.min.js') ?>"></script>
-	<script type="text/javascript" src="<?= site_url('js/sweet-alert.min.js') ?>"></script>
+	<script type="text/javascript" src="<?= base_url('js/ng-flow-standalone.min.js') ?>"></script>
+	<script type="text/javascript" src="<?= base_url('js/SweetAlert.min.js') ?>"></script>
+	<script type="text/javascript" src="<?= base_url('js/sweet-alert.min.js') ?>"></script>
+	<script type="text/javascript" src="<?= base_url('js/Blob.js') ?>"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2014-11-29/FileSaver.min.js"></script>
 	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.11.2/ui-bootstrap.min.js"></script>
 	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.11.2/ui-bootstrap-tpls.min.js"></script>
 	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/tinycolor/1.0.0/tinycolor.min.js"></script>
 	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/datatables/1.10.3/js/jquery.dataTables.min.js"></script>
 	<script type="text/javascript" src="http://cdn.datatables.net/plug-ins/9dcbecd42ad/integration/bootstrap/3/dataTables.bootstrap.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="<?= base_url('js/angular-money-directive.js') ?>"></script>
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/speakingurl/0.20.1/speakingurl.min.js"></script>
 
-	<link type="text/css" rel="stylesheet" href="<?= site_url('js/sweet-alert.css') ?>">
-	<link type="text/css" rel="stylesheet" href="<?= site_url('css/imgareaselect-default.css') ?>">
+	<link type="text/css" rel="stylesheet" href="<?= base_url('js/sweet-alert.css') ?>">
+	<?/*<link type="text/css" rel="stylesheet" href="<?= base_url('css/imgareaselect-default.css') ?>">*/?>
 	<link type="text/css" rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jquery-jcrop/0.9.12/css/jquery.Jcrop.min.css">
 	<link type="text/css" rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/datatables/1.10.3/css/jquery.dataTables.min.css">
 	<link type="text/css" rel="stylesheet" href="http://cdn.datatables.net/plug-ins/9dcbecd42ad/integration/bootstrap/3/dataTables.bootstrap.css">
-	<link href="<?= site_url('css/bootstrap.css') ?>" rel="stylesheet">
-	<link href="<?= site_url('css/theme.css') ?>" rel="stylesheet">
+	<link href="<?= base_url('css/bootstrap.css') ?>" rel="stylesheet">
+	<link href="<?= base_url('css/theme.css') ?>" rel="stylesheet">
 
 	<script>
-	var app = angular.module('app', ['flow', 'oitozero.ngSweetAlert', 'ui.bootstrap'])
+	var app = angular.module('app', ['flow', 'oitozero.ngSweetAlert', 'ui.bootstrap', 'fiestah.money'])
     .config(['flowFactoryProvider', function (flowFactoryProvider) {
         flowFactoryProvider.on('catchAll', function (event) {
             console.log('catchAll', arguments);
@@ -88,7 +92,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="<?= site_url() ?>"><img src="<?= site_url('css/logo.png') ?>" /></i>  &nbsp;&nbsp;&nbsp;PrintPixel</a>
+      <a class="navbar-brand" href="<?= base_url() ?>"><img src="<?= base_url('css/logo.png') ?>" /></i>  &nbsp;&nbsp;&nbsp;PrintPixel</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -117,6 +121,7 @@
 				<li><a href="<?= site_url('products') ?>" class="<?= ($section == 'products')?'active':'' ?>"><span><i class="fa fa-tags"></i></span> Inventory</a></li>
 				<li><a href="<?= site_url('orders') ?>" class="<?= ($section == 'orders')?'active':'' ?>"><span><i class="fa fa-credit-card"></i></span> Orders</a></li>
 				<li><a href="<?= site_url('pricing') ?>" class="<?= ($section == 'pricing')?'active':'' ?>"><span><i class="fa fa-usd"></i></span> Pricing</a></li>
+				<li><a href="<?= site_url('payment_methods') ?>" class="<?= ($section == 'payment_methods')?'active':'' ?>"><span><i class="fa fa-cc-stripe"></i></span> Payment methods</a></li>
 				<li><a href="<?= site_url('settings') ?>" class="<?= ($section == 'settings')?'active':'' ?>"><span><i class="fa fa-cogs"></i></span> Settings</a></li>		
 			</ul>
 			

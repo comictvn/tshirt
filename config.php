@@ -14,7 +14,7 @@
  *   define("BASE_URL", "/tshirt/"); //folder e.g. http://www.example.com/tshirt
  *
  */
-define("BASE_URL", "/tshirt/");
+define("BASE_URL", "/");
 
 //no need to change this unless you want to change the default paths
 define("ADMIN_URL", BASE_URL . "admin");
@@ -23,7 +23,7 @@ define("API_URL", BASE_URL . "api");
 /**
  *  Database information (optional).
  *  
- *  By default it's using sqlite.
+ *  By default it uses sqlite.
  *  
  *  If you want to switch over to mysql, first create a database
  *  using your provider, phpmyadmin or command line.
@@ -47,6 +47,7 @@ function get_database_connection() {
 		'username' => '',
 		'password' => '',
 		'collation' => 'utf8_general_ci',
+		'charset' => 'utf8',
 		'prefix' => ''
 	);
 	*/
@@ -60,13 +61,13 @@ if(isset($_GET['display_errors']) && $_GET['display_errors'] == 'on') {
 	$_SESSION['display_errors'] = $_GET['display_errors'];
 }
 
-if(isset($_GET['display_errors']) && $_GET['display_errors'] == 'on') {
+if(isset($_GET['display_errors']) && $_GET['display_errors'] == 'off') {
 	$_SESSION['display_errors'] = $_GET['display_errors'];
 }
 
 ini_set('display_errors', 0);
+error_reporting(0);
 if(isset($_SESSION['display_errors']) && $_SESSION['display_errors'] == 'on') {
 	ini_set('display_errors', 1);
+	error_reporting(E_ALL | E_STRICT);
 }
-error_reporting(E_ALL | E_STRICT);
-

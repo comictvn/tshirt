@@ -62,7 +62,10 @@ class ProductsController extends BaseController
 		$orientation['printable_offset_y'] = 50;
 		$product['orientations'] = [];
 		$product['orientations'][] = $orientation;
-		$product['sizes'] = ['S', 'M', 'L'];
+		$product['sizes'] = [];
+		$product['sizes'][] = ['name' => 'S'];
+		$product['sizes'][] = ['name' => 'M'];
+		$product['sizes'][] = ['name' => 'L'];
 		
 		//variants
 		$variant = [];
@@ -101,6 +104,15 @@ class ProductsController extends BaseController
 		$this->data['categories'] = $categories;  
 
     	$product = Yaml::parse(file_get_contents('../data/products/'.$slug.'.yml'));
+		$sizes = [];
+		foreach($product['sizes'] as $k => $size) {
+			if(!is_array($size)) {
+				$sizes[$k] = ['name' => $size];
+			} else {
+				$sizes[$k] = $size;
+			}
+		}
+		$product['sizes'] = $sizes;
 		$this->data['product'] = $product;
 
 		$variants = Yaml::parse(file_get_contents('../data/variants.yml'));
@@ -117,6 +129,7 @@ class ProductsController extends BaseController
 	
     public function getUpload() {
     	header("HTTP/1.0 404 Not Found");
+		die();
     }		
 
     public function postUpload() {
@@ -150,7 +163,10 @@ class ProductsController extends BaseController
 		}
     	$product['position'] = (int) @$post['position'];
     	$product['price'] = $post['price'];
-    	$product['sizes'] = $post['sizes'];
+    	$product['sizes'] = $this->arrayPluck('name', $post['sizes']);
+		if(isset($post['hexes'])) {
+			$variant['colors'] = $post['hexes'];
+		}
 
     	$product['orientations'] = $post['orientations'] ;
 
@@ -166,7 +182,7 @@ class ProductsController extends BaseController
 
 			$tmp['orientations'] = [];
 			foreach($product['orientations'] as $orientation) {
-				$img = "no_image";
+				$img = "blank.jpg";
 				if(isset($variant['orientations'][$orientation['name']])) {
 					$img = $variant['orientations'][$orientation['name']];
 				}
@@ -184,6 +200,12 @@ class ProductsController extends BaseController
 		$folder = '../data/products/';
 		file_put_contents($folder . $product['slug'].'.yml', $yaml);
 		$_SESSION['success'] = "Successfuly saved!";
+		
+		$sizes = [];
+		foreach($product['sizes'] as $k => $size) {
+			$sizes[$k] = ['name' => $size];
+		}
+		$product['sizes'] = $sizes;
 		
 		echo json_encode(['status' => true, 'product' => $product]);
     }	

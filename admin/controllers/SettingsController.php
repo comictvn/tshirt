@@ -20,8 +20,7 @@ class SettingsController extends BaseController
 		}
 		$this->data['settings'] = $settings;
 		$this->data['currencies'] = $currencies;
-		$this->data['payment_methods'] = ['stripe', 'paypal'];
-		$this->data['paypal_environments'] = ['sandbox', 'live'];
+		$this->data['print_formats'] = ['tiff', 'pdf', 'svg', 'png'];
 		
 		$products = [];
     	foreach (new RecursiveIteratorIterator(new RecursiveDirectoryIterator('../data/products/')) as $filename) {
@@ -40,7 +39,19 @@ class SettingsController extends BaseController
 		}
 
 		$this->data['products'] = $products;
-		
+		$languages = [];
+    	foreach (new RecursiveIteratorIterator(new RecursiveDirectoryIterator('../data/languages/')) as $filename) {
+			//save yaml files
+			$filetype = pathinfo($filename, PATHINFO_EXTENSION);
+			if (strtolower($filetype) == 'po') {
+				$path = $filename->getPathname();
+				$tmp = [];
+				$tmp['code'] = str_replace('.po', '', $filename->getBasename());
+				$languages[] = $tmp;
+			}
+		}
+		$this->data['languages'] = $languages;
+
 		echo $this->view->render('settings.tpl.php', $this->data);
 	}
 	
@@ -58,18 +69,13 @@ class SettingsController extends BaseController
 		$config['site_name'] = trim($_POST['site_name']);
 		$config['site_url'] = trim($_POST['site_url']);
 		$config['site_url'] = rtrim($config['site_url'], '/'); //no trailing slash
-		$config['stripe_secret_key'] = trim($_POST['stripe_secret_key']);
-		$config['stripe_publishable_key'] = trim($_POST['stripe_publishable_key']);
 		$config['currency'] = $_POST['currency'];
 		$config['default_product'] = $_POST['default_product'];
 		$config['email'] = $_POST['email'];
-		
-		$config['payment_method'] = $_POST['payment_method'];
-		$config['paypal_username'] = trim($_POST['paypal_username']);
-		$config['paypal_password'] = trim($_POST['paypal_password']);
-		$config['paypal_signature'] = trim($_POST['paypal_signature']);
-		$config['paypal_environment'] = $_POST['paypal_environment'];
-		
+		$config['language'] = $_POST['language'];
+		#$config['print_format'] = $_POST['print_format'];
+		$config['print_format'] = 'pdf';
+
 		$currencies = file_get_contents("../data/common_currencies.json");
         $currencies = json_decode($currencies, true);
 		$config['currency_symbol'] = $currencies[$_POST['currency']]['symbol'];

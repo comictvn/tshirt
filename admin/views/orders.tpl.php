@@ -36,6 +36,7 @@
           <th>Customer name</th>
           <th class="text-right">Price</th>
           <th class="text-right">Date ordered</th>
+          <th class="text-right">Time ordered</th>
           <th class="text-right">Dispatched</th>
         </tr>
       </thead>
@@ -44,8 +45,9 @@
         <tr>
           <td><a href="<?= site_url('orders/view?id='.$order->id) ?>">@($order->id)</a></td>
           <td>@($order->firstname) @($order->lastname)</td>
-          <td class="text-right"><?= number_format($order->amount, 2) ?> <?= $order->currency ?></td>
-          <td class="text-right"><?= $carbon->parse($order->created_at)->diffForHumans() ?></td>
+          <td class="text-right"><?= number_format((float) $order->amount, 2) ?> <?= $order->currency ?></td>
+          <td class="text-right"><?= $carbon->parse($order->created_at)->toFormattedDateString() ?></td>
+          <td class="text-right"><?= $carbon->parse($order->created_at)->toTimeString() ?></td>
           <td class="text-right"><?= ($order->dispatched)?'YES':'NO' ?></td>
           <td class="text-right"><a href="<?= site_url('orders/view?id='.$order->id) ?>">View</a>&nbsp;&nbsp;&nbsp;<a href="#" data-id="<?= $order->id ?>" class="delete-order" data-toggle="tooltip" data-placement="right" title="Delete order"><i class="fa fa-times"></i></a></td>
         </tr>

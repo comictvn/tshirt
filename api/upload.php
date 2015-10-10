@@ -24,15 +24,19 @@ if(!file_exists($full_path))
 	mkdir ( $full_path, 0777, true );
 	
 $img = imagecreatefromfile($_FILES['file']['tmp_name']);
-imagealphablending($img, FALSE);
-imagesavealpha($img, TRUE);
+imagecolortransparent($img, imagecolorallocatealpha($img, 0, 0, 0, 127));
+imagealphablending($img, TRUE);
+#imagesavealpha($img, TRUE);
 $filename = pathinfo($_FILES['file']['name'], PATHINFO_FILENAME). '.png';
-
+#var_dump($_POST);die();
 // remove whitespace if needed
-if(isset($_POST['whitespace']) && $_POST['whitespace'] == true ) {
+#if(isset($_POST['whitespace']) && (int) $_POST['whitespace'] == 1 ) {
 	$white = imagecolorallocate($img, 255, 255, 255);
+	$white = imagecolorexact($img, 255, 255, 255);
+	
+	#var_dump($white);die();
     imagecolortransparent($img, $white);
-}
+#}
 
 imagepng($img, $full_path . $filename);
 $result['filepath'] = $folder . $filename;

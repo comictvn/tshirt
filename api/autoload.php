@@ -3,6 +3,7 @@
 if(function_exists('xdebug_disable')) {
 	xdebug_disable();
 }
+
 //error_reporting(E_ERROR | E_PARSE);
 require __DIR__ . '/../bootstrap.php';
 session_start();

@@ -12,8 +12,8 @@ class DashboardController extends BaseController
     public function index() {
 		
 		$dashboard = [];
-		$dashboard['orders_this_month'] = Order::where('created_at', '>=', Carbon::now()->startOfMonth())->count();
-		$dashboard['undispatched_orders'] = Order::where('dispatched', 0)->where('confirmed', 1)->count();
+		$dashboard['orders_this_month'] = Order::where('created_at', '>=', Carbon::now()->startOfMonth())->where('payment_status', 'paid')->count();
+		$dashboard['undispatched_orders'] = Order::where('dispatched', 0)->where('payment_status', 'paid')->where('confirmed', 1)->count();
 
 		$last_order = Order::where('confirmed', 1)->orderBy('created_at', 'desc')->first();
 		if($last_order) {
@@ -32,6 +32,7 @@ class DashboardController extends BaseController
     				new raw('SUM(amount) AS count'),
  				])
 				->where('created_at', '>=', $todayMinusOneWeekAgo)
+				->where('payment_status', 'paid')
 				->groupBy('created_at')
 				->orderBy('created_at', 'ASC')
 				->get();

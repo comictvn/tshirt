@@ -3,6 +3,7 @@
 @block('content')
 <h3>Settings</h3>
 <p>Edit your settings</p><hr /><br />
+
   <? if(isset($_SESSION['success'])) : ?>
     <div class="alert alert-success" role="alert"><?= $_SESSION['success'] ?></div>   
   <? endif; ?>
@@ -31,65 +32,7 @@
     <input type="text" class="form-control" value="<?= @$settings['email'] ?>" name="email">
     </div>
   </div>
-
-<div class="form-group">
-	<label class="col-sm-3 control-label">Default payment method</label>
-	<div class="col-sm-6">
-		<select name="payment_method" class="form-control">
-			<? foreach($payment_methods as $payment_method) : ?>
-				<option value="<?= $payment_method ?>" <? if($payment_method == @$settings['payment_method']): ?>selected<?endif; ?>><?= ucfirst($payment_method) ?></option>
-			<? endforeach; ?>
-		</select>
-	</div>
-</div>
-<hr />
-<div class="form-group">
-	<label class="col-sm-3 control-label">Paypal UserName</label>
-	<div class="col-sm-6">
-		<input type="text" class="form-control" value="<?= @$settings['paypal_username'] ?>" name="paypal_username">
-	</div>
-</div>
-    
-<div class="form-group">
-	<label class="col-sm-3 control-label">Paypal Password</label>
-	<div class="col-sm-6">
-		<input type="text" class="form-control" value="<?= @$settings['paypal_password'] ?>" name="paypal_password">
-	</div>
-</div>
-    
-<div class="form-group">
-	<label class="col-sm-3 control-label">Paypal Signature</label>
-	<div class="col-sm-6">
-		<input type="text" class="form-control" value="<?= @$settings['paypal_signature'] ?>" name="paypal_signature">
-	</div>
-</div>
-<div class="form-group">
-	<label class="col-sm-3 control-label">Paypal environment</label>
-	<div class="col-sm-6">
-		<select name="paypal_environment" class="form-control">
-			<? foreach($paypal_environments as $paypal_environment) : ?>
-				<option value="<?= $paypal_environment ?>" <? if($paypal_environment == @$settings['paypal_environment']): ?>selected<?endif; ?>><?= ucfirst($paypal_environment) ?></option>
-			<? endforeach; ?>
-		</select>
-	</div>
-</div>
-<hr />
-
-<div class="form-group">
-    <label class="col-sm-3 control-label">Stripe secret key</label>
-    <div class="col-sm-6">
-    <input type="text" class="form-control" value="<?= @$settings['stripe_secret_key'] ?>" name="stripe_secret_key">
-    </div>
-  </div>
-    
-<div class="form-group">
-    <label class="col-sm-3 control-label">Stripe publishable key</label>
-    <div class="col-sm-6">
-    <input type="text" class="form-control" value="<?= @$settings['stripe_publishable_key'] ?>" name="stripe_publishable_key">
-    </div>
-  </div>
-<hr />
-      
+       <hr />
 <div class="form-group">
     <label class="col-sm-3 control-label">Shop currency</label>
     <div class="col-sm-4">
@@ -112,7 +55,29 @@
     </select>    
 	</div>
   </div>
-
+      
+	<div class="form-group">
+		<label class="col-sm-3 control-label">Language</label>
+		<div class="col-sm-4">
+		<select name="language" class="form-control">
+			<? foreach($languages as $language) : ?>
+			  <option value="<?= $language['code'] ?>" <? if($language['code'] == @$settings['language']): ?>selected<?endif; ?>><?= strtoupper($language['code']) ?></option>
+			<? endforeach; ?>
+		</select>    
+		</div>
+	  </div>
+      <?/*
+	<div class="form-group">
+		<label class="col-sm-3 control-label">Print format</label>
+		<div class="col-sm-4">
+		<select name="print_format" class="form-control">
+			<? foreach($print_formats as $print_format) : ?>
+			  <option value="<?= $print_format ?>" <? if($print_format == @$settings['print_format']): ?>selected<?endif; ?>><?= strtoupper($print_format) ?></option>
+			<? endforeach; ?>
+		</select>    
+		</div>
+	  </div>
+*/?>
      <hr />
 	  <div class="form-group">
     <label class="col-sm-3 control-label">Admin password</label>
