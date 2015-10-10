@@ -14,7 +14,7 @@
  *   define("BASE_URL", "/tshirt/"); //folder e.g. http://www.example.com/tshirt
  *
  */
-define("BASE_URL", "/");
+define("BASE_URL", "/tshirt/");
 
 //no need to change this unless you want to change the default paths
 define("ADMIN_URL", BASE_URL . "admin");
