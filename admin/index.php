@@ -1,5 +1,5 @@
 <?php
-phpinfo();
+
 require_once __DIR__ . '/../bootstrap.php';
 require_once __DIR__ . "/functions.php";
 if (function_exists('xdebug_disable')) {
