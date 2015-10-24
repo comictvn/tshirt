@@ -1,6 +1,6 @@
 # Enable rewrite engine and route requests to framework
 RewriteEngine On
-RewriteBase /admin #possibly needed on some hosts
+# RewriteBase /admin #possibly needed on some hosts
 
 RewriteCond %{REQUEST_FILENAME} !-l
 RewriteCond %{REQUEST_FILENAME} !-f
