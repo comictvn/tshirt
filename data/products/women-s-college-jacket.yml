@@ -1,0 +1,22 @@
+name: 'Women’s College Jacket'
+slug: women-s-college-jacket
+description: "Harvard, Princeton, Yale: Wear this cult jacket to instantly take the classic charm of American college life to the campus and the streets of your town.\r\n\r\n- Colour-contrast buttons and contrasting stripes on collar and cuffs\r\n- White sleeves\r\n- Rugged fabrics: 380 g/m²\r\n- Material: 65% cotton, 35% polyester"
+category: Jackets
+position: 0
+price: '38.90'
+sizes:
+    - S
+    - M
+    - L
+    - XL
+orientations:
+    - { name: Front, width: 716.21349446123, height: 716.21349446123, printable_width: 291.6012084398, printable_height: 199.5166163076, printable_offset_x: 212.306, printable_offset_y: 163.706 }
+    - { name: Back, width: 749.42044257113, height: 749.42044257113, printable_width: 313.1506849242, printable_height: 358.6512117792, printable_offset_x: 219.473, printable_offset_y: 179.326 }
+    - { name: Right, width: 797.30941704036, height: 797.30941704036, printable_width: 91.1210762284, printable_height: 421.4349775754, printable_offset_x: 324.619, printable_offset_y: 290.448 }
+    - { name: Left, width: 797.30941704036, height: 797.30941704036, printable_width: 91.1210762284, printable_height: 421.4349775754, printable_offset_x: 381.57, printable_offset_y: 290.448 }
+variants:
+    - { name: blue/white, slug: blue-white, additional_price: 0, colors: ['#4A5CA9', '#FFFFFF'], orientations: { Front: 833_1_405.png, Back: 833_2_405.png, Right: 833_3_405.png, Left: 833_4_405.png }, price: '38.90' }
+    - { name: purple/white, slug: purple-white, additional_price: 0, colors: ['#743981', '#FFFFFF'], orientations: { Front: 833_1_474.png, Back: 833_2_474.png, Right: 833_3_474.png, Left: 833_4_474.png }, price: '38.90' }
+    - { name: black/white, slug: black-white, additional_price: 0, colors: ['#000000', '#FFFFFF'], orientations: { Front: 833_1_54.png, Back: 833_2_54.png, Right: 833_3_54.png, Left: 833_4_54.png }, price: '38.90' }
+    - { name: red/white, slug: red-white, additional_price: 0, colors: ['#F33D2B', '#FFFFFF'], orientations: { Front: 833_1_209.png, Back: 833_2_209.png, Right: 833_3_209.png, Left: 833_4_209.png }, price: '38.90' }
+defaultVariant: blue/white

@@ -1,0 +1,25 @@
+name: 'Women''s Hoodie'
+slug: women-s-hoodie
+description: "Cuddly hoodie made with a green conscience from the Earth Positive Collection by Continental Clothing, produced with renewable energy sources.\r\n\r\n- Brand: Continental Clothing\r\n- Two side pockets on its front\r\n- Hood with draw cord\r\n- Heavy sweatshirt fabrics: 270g/m²\r\n- Material: 100% cotton from organic production"
+category: Hoodies
+position: 0
+price: '24.20'
+sizes:
+    - S
+    - M
+    - L
+    - XL
+    - XXL
+orientations:
+    - { name: Front, width: 846.66666666667, height: 846.66666666667, printable_width: 296.3333333164, printable_height: 414.2619047486, printable_offset_x: 272.143, printable_offset_y: 217.714 }
+    - { name: Back, width: 846.66666666667, height: 846.66666666667, printable_width: 299.357142839, printable_height: 371.9285714068, printable_offset_x: 272.143, printable_offset_y: 272.143 }
+    - { name: Right, width: 923.63636363636, height: 923.63636363636, printable_width: 69.2727272658, printable_height: 481.6103896094, printable_offset_x: 409.039, printable_offset_y: 277.091 }
+    - { name: Left, width: 923.63636363636, height: 923.63636363636, printable_width: 69.2727272658, printable_height: 481.6103896094, printable_offset_x: 442.026, printable_offset_y: 277.091 }
+    - { name: 'Hood left', width: 461.81818181818, height: 461.81818181818, printable_width: 186.3766233598, printable_height: 275.4415584376, printable_offset_x: 128.649, printable_offset_y: 87.4156 }
+    - { name: 'Hood right', width: 461.81818181818, height: 461.81818181818, printable_width: 186.3766233598, printable_height: 275.4415584376, printable_offset_x: 145.143, printable_offset_y: 87.4156 }
+variants:
+    - { name: white, slug: white, additional_price: 0, colors: ['#FFFFFF'], orientations: { Front: 444_1_1.png, Back: 444_2_1.png, Right: 444_3_1.png, Left: 444_4_1.png, 'Hood left': 444_6_1.png, 'Hood right': 444_5_1.png }, price: '24.20' }
+    - { name: purple, slug: purple, additional_price: 0, colors: ['#6E2A81'], orientations: { Front: 444_1_447.png, Back: 444_2_447.png, Right: 444_3_447.png, Left: 444_4_447.png, 'Hood left': 444_6_447.png, 'Hood right': 444_5_447.png }, price: '24.20' }
+    - { name: 'heather grey', slug: heather-grey, additional_price: 0, colors: ['#BEBEBE'], orientations: { Front: 444_1_251.png, Back: 444_2_251.png, Right: 444_3_251.png, Left: 444_4_251.png, 'Hood left': 444_6_251.png, 'Hood right': 444_5_251.png }, price: '24.20' }
+    - { name: 'crystal pink', slug: crystal-pink, additional_price: 0, colors: ['#FACCC8'], orientations: { Front: 444_1_346.png, Back: 444_2_346.png, Right: 444_3_346.png, Left: 444_4_346.png, 'Hood left': 444_6_346.png, 'Hood right': 444_5_346.png }, price: '24.20' }
+defaultVariant: purple

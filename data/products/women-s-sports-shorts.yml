@@ -1,0 +1,18 @@
+name: 'Women''s Sports Shorts'
+slug: women-s-sports-shorts
+description: 'These shorts are your sporty companion whenever you work out. Whether you play volleyball, do athletics or go to the gym – Hanes'' fashion designers create trendy sportswear to make your sportive activities an thoroughly enjoyable experience. These shorts are made of breathable Cool-DRI® fabrics that transport perspiration to the outside. The elastic waist holds it in place whenever you''re moving fast, and two contrasting stripes on its side may turn a few eyes. It also has pockets as well as briefs inside which make sure that these shorts are completely opaque and comfortable. Ideally combined with the strapless sports top for women. Light consistency of 145 g/m². 100% polyester.'
+category: 'Trousers and jogging bottoms'
+position: 0
+price: '16.10'
+sizes:
+    - S
+    - M
+    - L
+    - XL
+orientations:
+    - { name: Front, width: 473.50199733688, height: 473.50199733688, printable_width: 399.0945405952, printable_height: 246.8974700344, printable_offset_x: 37.2037, printable_offset_y: 140.36 }
+    - { name: Back, width: 506.55270655271, height: 506.55270655271, printable_width: 419.7150997096, printable_height: 249.6581196566, printable_offset_x: 45.2279, printable_offset_y: 161.011 }
+variants:
+    - { name: black/grey, slug: black-grey, additional_price: 0, colors: ['#000000', '#717069'], orientations: { Front: 745_1_461.png, Back: 745_2_461.png }, price: '16.10' }
+    - { name: white/grey, slug: white-grey, additional_price: 0, colors: ['#FFFFFF', '#A0A0A0'], orientations: { Front: 745_1_204.png, Back: 745_2_204.png }, price: '16.10' }
+defaultVariant: black/grey

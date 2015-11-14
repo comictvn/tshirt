@@ -1,0 +1,21 @@
+name: 'Women‘s V-Neck T-Shirt'
+slug: women-s-v-neck-t-shirt
+description: "From the leading premium brand Fruit of the Loom comes this Ladies V-Neck T-Shirt.\n\nMade using soft stretch 220-230gsm 95% Ringspun Combed Cotton and 5% Elastane whic provides excellent shape retention, comfort and fit.\n\n- V-Neck with self-fabric trim\n- Cotton/elastane single jersey for comfort and shape retention\n- Shaped side seams for a feminine fit"
+category: T-Shirts
+position: 0
+price: '12.50'
+sizes:
+    - S
+    - M
+    - L
+    - XL
+    - XXL
+orientations:
+    - { name: Front, width: 666.54170571696, height: 666.54170571696, printable_width: 266.616682285, printable_height: 430.8716026188, printable_offset_x: 202.343, printable_offset_y: 161.874 }
+    - { name: Back, width: 677.97902764538, height: 677.97902764538, printable_width: 268.7702573784, printable_height: 539.9618684358, printable_offset_x: 205.815, printable_offset_y: 72.6406 }
+    - { name: Right, width: 266.66666666667, height: 266.66666666667, printable_width: 110.4761904518, printable_height: 70.4761904672, printable_offset_x: 47.619, printable_offset_y: 135.238 }
+    - { name: Left, width: 266.66666666667, height: 266.66666666667, printable_width: 110.4761904518, printable_height: 70.4761904672, printable_offset_x: 109.524, printable_offset_y: 135.238 }
+variants:
+    - { name: white, slug: white, additional_price: 0, colors: ['#FFFFFF'], orientations: { Front: 857_1_1.png, Back: 857_2_1.png, Right: 857_3_1.png, Left: 857_4_1.png }, price: '12.50' }
+    - { name: black, slug: black, additional_price: 0, colors: ['#000000'], orientations: { Front: 857_1_2.png, Back: 857_2_2.png, Right: 857_3_2.png, Left: 857_4_2.png }, price: '12.50' }
+defaultVariant: white

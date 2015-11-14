@@ -1,0 +1,33 @@
+name: 'Men’s Premium T-Shirt'
+slug: men-s-premium-t-shirt
+description: "Fruit of the Loom Super Premium T-Shirt\n\n- Guaranteed to perform at 60°C wash\n- Crew neck with cotton/Lycra® rib\n- Self-fabric shoulder to shoulder taping\n- Produced using Belcoro® yarn for a cleaner, more stable print area\n- Fine knit gauge for enhanced printability"
+category: T-Shirts
+position: 0
+price: '12.90'
+sizes:
+    - S
+    - M
+    - L
+    - XL
+    - XXL
+    - 3XL
+    - 4XL
+    - 5XL
+orientations:
+    - { name: Front, width: 813.7299771167, height: 813.7299771167, printable_width: 308.0549199062, printable_height: 569.610983966, printable_offset_x: 241.213, printable_offset_y: 151.121 }
+    - { name: Back, width: 807.26447219069, height: 807.26447219069, printable_width: 308.4903518522, printable_height: 619.863791131, printable_offset_x: 239.296, printable_offset_y: 95.1419 }
+    - { name: Right, width: 296.82804674457, height: 296.82804674457, printable_width: 98.589315521, printable_height: 117.6711185308, printable_offset_x: 97.5292, printable_offset_y: 131.452 }
+    - { name: Left, width: 296.82804674457, height: 296.82804674457, printable_width: 98.589315521, printable_height: 112.3706176764, printable_offset_x: 100.71, printable_offset_y: 131.452 }
+variants:
+    - { name: white, slug: white, additional_price: 0, colors: ['#FFFFFF'], orientations: { Front: 812_1_1.png, Back: 812_2_1.png, Right: 812_3_1.png, Left: 812_4_1.png }, price: '12.90' }
+    - { name: black, slug: black, additional_price: 0, colors: ['#000000'], orientations: { Front: 812_1_2.png, Back: 812_2_2.png, Right: 812_3_2.png, Left: 812_4_2.png }, price: '12.90' }
+    - { name: red, slug: red, additional_price: 0, colors: ['#C20329'], orientations: { Front: 812_1_366.png, Back: 812_2_366.png, Right: 812_3_366.png, Left: 812_4_366.png }, price: '12.90' }
+    - { name: navy, slug: navy, additional_price: 0, colors: ['#303442'], orientations: { Front: 812_1_348.png, Back: 812_2_348.png, Right: 812_3_348.png, Left: 812_4_348.png }, price: '12.90' }
+    - { name: 'noble brown', slug: noble-brown, additional_price: 0, colors: ['#463C26'], orientations: { Front: 812_1_387.png, Back: 812_2_387.png, Right: 812_3_387.png, Left: 812_4_387.png }, price: '12.90' }
+    - { name: 'kelly green', slug: kelly-green, additional_price: 0, colors: ['#1E9658'], orientations: { Front: 812_1_92.png, Back: 812_2_92.png, Right: 812_3_92.png, Left: 812_4_92.png }, price: '12.90' }
+    - { name: 'sun yellow', slug: sun-yellow, additional_price: 0, colors: ['#F6BC1A'], orientations: { Front: 812_1_39.png, Back: 812_2_39.png, Right: 812_3_39.png, Left: 812_4_39.png }, price: '12.90' }
+    - { name: 'heather grey', slug: heather-grey, additional_price: 0, colors: ['#CBCBCB'], orientations: { Front: 812_1_231.png, Back: 812_2_231.png, Right: 812_3_231.png, Left: 812_4_231.png }, price: '12.90' }
+    - { name: 'royal blue', slug: royal-blue, additional_price: 0, colors: ['#454A86'], orientations: { Front: 812_1_317.png, Back: 812_2_317.png, Right: 812_3_317.png, Left: 812_4_317.png }, price: '12.90' }
+    - { name: purple, slug: purple, additional_price: 0, colors: ['#643170'], orientations: { Front: 812_1_506.png, Back: 812_2_506.png, Right: 812_3_506.png, Left: 812_4_506.png }, price: '12.90' }
+    - { name: orange, slug: orange, additional_price: 0, colors: ['#FA6807'], orientations: { Front: 812_1_29.png, Back: 812_2_29.png, Right: 812_3_29.png, Left: 812_4_29.png }, price: '12.90' }
+defaultVariant: white

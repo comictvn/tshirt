@@ -1,0 +1,21 @@
+name: 'Kids’ T-Shirt'
+slug: kids-breathable-t-shirt
+description: "A mid-weight T shirt with a soft and smooth finish which caters for a high quality print.\n\n- Crew neck with cotton/Lycra® rib\n- Self-fabric back neck tape\n- Produced using Belcoro® yarn for a cleaner, more stable print area\n- Fine knit gauge for enhanced printability"
+category: T-Shirts
+position: 10
+price: '11.50'
+sizes:
+    - 'S (5/6 years)'
+    - 'M (7/8 years)'
+    - 'L (9/11 years)'
+    - 'Xl (12/13 years)'
+orientations:
+    - { name: Front, width: 522.94117647059, height: 522.94117647059, printable_width: 225.9852941042, printable_height: 369.7941176366, printable_offset_x: 149.412, printable_offset_y: 91.5147 }
+    - { name: Back, width: 545.39877300614, height: 545.39877300614, printable_width: 229.8466257516, printable_height: 389.5705521248, printable_offset_x: 157.776, printable_offset_y: 83.7577 }
+    - { name: Right, width: 217.02776930119, height: 217.02776930119, printable_width: 75.1846200648, printable_height: 69.7589258362, printable_offset_x: 76.7348, printable_offset_y: 108.514 }
+    - { name: Left, width: 217.02776930119, height: 217.02776930119, printable_width: 75.1846200648, printable_height: 69.7589258362, printable_offset_x: 65.1083, printable_offset_y: 108.514 }
+variants:
+    - { name: white, slug: white, additional_price: 0, colors: ['#FFFFFF'], orientations: { Front: 980_1_1.png, Back: 980_2_1.png, Right: 980_3_1.png, Left: 980_4_1.png }, price: '11.50' }
+    - { name: black, slug: black, additional_price: 0, colors: ['#000000'], orientations: { Front: 980_1_2.png, Back: 980_2_2.png, Right: 980_3_2.png, Left: 980_4_2.png }, price: '11.50' }
+    - { name: 'royal blue', slug: royal-blue, additional_price: 0, colors: ['#48599B'], orientations: { Front: 980_1_258.png, Back: 980_2_258.png, Right: 980_3_258.png, Left: 980_4_258.png }, price: '11.50' }
+defaultVariant: 'royal blue'

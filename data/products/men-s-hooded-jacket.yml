@@ -1,0 +1,25 @@
+name: 'Men''s Hooded Jacket'
+slug: men-s-hooded-jacket
+description: "A sporty and snug classic - wear this cuddly companion wherever you go, and hide under the hood to be safe from the rain or other boys in the hood.\r\n\r\n- colour contrasting zip fastener and cord\r\n- Two pockets appliquéd\r\n- rugged sweater fabrics: 320g/m²\r\n- Material: 80% cotton, 20% polyester"
+category: Jackets
+position: 0
+price: '27.60'
+sizes:
+    - S
+    - M
+    - L
+    - XL
+    - XXL
+orientations:
+    - { name: Front, width: 727.94268167861, height: 727.94268167861, printable_width: 387.3694984624, printable_height: 441.9651995832, printable_offset_x: 174.186, printable_offset_y: 142.989 }
+    - { name: Back, width: 735.47052740434, height: 735.47052740434, printable_width: 359.8552223252, printable_height: 493.8159255234, printable_offset_x: 186.494, printable_offset_y: 94.5605 }
+    - { name: Right, width: 742.37995824635, height: 742.37995824635, printable_width: 71.5866388178, printable_height: 461.3361168992, printable_offset_x: 342.025, printable_offset_y: 193.549 }
+    - { name: Left, width: 742.37995824635, height: 742.37995824635, printable_width: 71.5866388178, printable_height: 461.3361168992, printable_offset_x: 339.374, printable_offset_y: 193.549 }
+    - { name: 'Hood left', width: 447.29559748428, height: 447.29559748428, printable_width: 199.685534588, printable_height: 274.7672955748, printable_offset_x: 121.409, printable_offset_y: 46.327 }
+    - { name: 'Hood right', width: 447.29559748428, height: 447.29559748428, printable_width: 199.685534588, printable_height: 274.7672955748, printable_offset_x: 129.396, printable_offset_y: 46.327 }
+variants:
+    - { name: black, slug: black, additional_price: 0, colors: ['#000000'], orientations: { Front: 93_1_2.png, Back: 93_2_2.png, Right: 93_3_2.png, Left: 93_4_2.png, 'Hood left': 93_6_2.png, 'Hood right': 93_5_2.png }, price: '27.60' }
+    - { name: red, slug: red, additional_price: 0, colors: ['#F51E30'], orientations: { Front: 93_1_5.png, Back: 93_2_5.png, Right: 93_3_5.png, Left: 93_4_5.png, 'Hood left': 93_6_5.png, 'Hood right': 93_5_5.png }, price: '27.60' }
+    - { name: navy, slug: navy, additional_price: 0, colors: ['#00224C'], orientations: { Front: 93_1_4.png, Back: 93_2_4.png, Right: 93_3_4.png, Left: 93_4_4.png, 'Hood left': 93_6_4.png, 'Hood right': 93_5_4.png }, price: '27.60' }
+    - { name: granite, slug: granite, additional_price: 0, colors: ['#878187'], orientations: { Front: 93_1_68.png, Back: 93_2_68.png, Right: 93_3_68.png, Left: 93_4_68.png, 'Hood left': 93_6_68.png, 'Hood right': 93_5_68.png }, price: '27.60' }
+defaultVariant: navy

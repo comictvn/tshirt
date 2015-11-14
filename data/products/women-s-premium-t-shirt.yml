@@ -1,0 +1,31 @@
+name: 'Women’s Premium T-Shirt'
+slug: women-s-premium-t-shirt
+description: "For a stylish, fashion forward t-shirt choice this Lightweight Scoop Neck T-Shirt is ideal. From leading premium brand Fruit of the Loom, it's a figure flattering and feminine option.\n\nMade from a soft, lightweight cotton, the scoop neck and fitted cut provide great shape. Shaped side seams and self frabric binding finish the t-shirt for durability and lasting shape.\n\nSelf fabric binding to the low scoop neck."
+category: T-Shirts
+position: 3
+price: '12.90'
+sizes:
+    - S
+    - M
+    - L
+    - XL
+    - XXL
+    - 3XL
+orientations:
+    - { name: Front, width: 702.07305034551, height: 702.07305034551, printable_width: 260.7699901176, printable_height: 478.914116465, printable_offset_x: 220.652, printable_offset_y: 142.922 }
+    - { name: Back, width: 728.68852459016, height: 728.68852459016, printable_width: 270.6557376816, printable_height: 549.1188524586, printable_offset_x: 231.619, printable_offset_y: 93.6885 }
+    - { name: Right, width: 239.05882352941, height: 239.05882352941, printable_width: 87.0857142712, printable_height: 78.5478991396, printable_offset_x: 58.9109, printable_offset_y: 115.261 }
+    - { name: Left, width: 239.05882352941, height: 239.05882352941, printable_width: 87.0857142712, printable_height: 78.5478991396, printable_offset_x: 93.916, printable_offset_y: 115.261 }
+variants:
+    - { name: white, slug: white, additional_price: 0, colors: ['#FFFFFF'], orientations: { Front: 813_1_1.png, Back: 813_2_1.png, Right: 813_3_1.png, Left: 813_4_1.png }, price: '12.90' }
+    - { name: black, slug: black, additional_price: 0, colors: ['#000000'], orientations: { Front: 813_1_2.png, Back: 813_2_2.png, Right: 813_3_2.png, Left: 813_4_2.png }, price: '12.90' }
+    - { name: red, slug: red, additional_price: 0, colors: ['#C20329'], orientations: { Front: 813_1_366.png, Back: 813_2_366.png, Right: 813_3_366.png, Left: 813_4_366.png }, price: '12.90' }
+    - { name: navy, slug: navy, additional_price: 0, colors: ['#303442'], orientations: { Front: 813_1_348.png, Back: 813_2_348.png, Right: 813_3_348.png, Left: 813_4_348.png }, price: '12.90' }
+    - { name: 'kelly green', slug: kelly-green, additional_price: 0, colors: ['#1E9658'], orientations: { Front: 813_1_92.png, Back: 813_2_92.png, Right: 813_3_92.png, Left: 813_4_92.png }, price: '12.90' }
+    - { name: 'sun yellow', slug: sun-yellow, additional_price: 0, colors: ['#F6BC1A'], orientations: { Front: 813_1_39.png, Back: 813_2_39.png, Right: 813_3_39.png, Left: 813_4_39.png }, price: '12.90' }
+    - { name: 'heather grey', slug: heather-grey, additional_price: 0, colors: ['#CBCBCB'], orientations: { Front: 813_1_231.png, Back: 813_2_231.png, Right: 813_3_231.png, Left: 813_4_231.png }, price: '12.90' }
+    - { name: 'royal blue', slug: royal-blue, additional_price: 0, colors: ['#454A86'], orientations: { Front: 813_1_317.png, Back: 813_2_317.png, Right: 813_3_317.png, Left: 813_4_317.png }, price: '12.90' }
+    - { name: purple, slug: purple, additional_price: 0, colors: ['#643170'], orientations: { Front: 813_1_506.png, Back: 813_2_506.png, Right: 813_3_506.png, Left: 813_4_506.png }, price: '12.90' }
+    - { name: 'dark pink', slug: dark-pink, additional_price: 0, colors: ['#DA0057'], orientations: { Front: 813_1_507.png, Back: 813_2_507.png, Right: 813_3_507.png, Left: 813_4_507.png }, price: '12.90' }
+    - { name: orange, slug: orange, additional_price: 0, colors: ['#FA6807'], orientations: { Front: 813_1_29.png, Back: 813_2_29.png, Right: 813_3_29.png, Left: 813_4_29.png }, price: '12.90' }
+defaultVariant: orange

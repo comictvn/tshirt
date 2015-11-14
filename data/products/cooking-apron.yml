@@ -1,0 +1,14 @@
+name: 'Cooking Apron'
+slug: cooking-apron
+description: 'Whether it''s pasta with red sauce or a 5 course menu – this apron will help you look like a chef in your kitchen or at the BBQ. Made of sturdy and robust material you''ll be sure not get splashed on by gravy or sizzling fat. It''s easy to clean and will keep its shape washing after washing. Standard size (fits all). Fabric weight: 240 g/m². 65% polyester and 35% cotton.'
+category: Accessories
+position: 0
+price: '14.90'
+sizes:
+    - 'One size'
+orientations:
+    - { name: Front, width: 1042.8152492669, height: 1042.8152492669, printable_width: 316.5689149432, printable_height: 703.900293238, printable_offset_x: 364.985, printable_offset_y: 283.05 }
+variants:
+    - { name: white, slug: white, additional_price: 0, colors: ['#FFFFFF'], orientations: { Front: 141_1_1.png }, price: '14.90' }
+    - { name: black, slug: black, additional_price: 0, colors: ['#000000'], orientations: { Front: 141_1_2.png }, price: '14.90' }
+defaultVariant: white

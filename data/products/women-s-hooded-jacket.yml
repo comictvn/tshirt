@@ -1,0 +1,23 @@
+name: 'Women''s Hooded Jacket'
+slug: women-s-hooded-jacket
+description: "A sporty and snug classic - wear this cuddly companion wherever you go, and hide under the hood to be safe from the rain or other boys in the hood.\r\n\r\n- colour contrasting zip fastener and cord\r\n- Two pockets appliquéd\r\n- rugged sweater fabrics: 320g/m²\r\n- Material: 80% cotton, 20% polyester"
+category: Jackets
+position: 0
+price: '27.60'
+sizes:
+    - S
+    - M
+    - L
+    - XL
+orientations:
+    - { name: Front, width: 846.66666666667, height: 846.66666666667, printable_width: 293.3095237938, printable_height: 377.976190452, printable_offset_x: 269.119, printable_offset_y: 229.81 }
+    - { name: Back, width: 923.63636363636, height: 923.63636363636, printable_width: 313.3766233598, printable_height: 412.3376623182, printable_offset_x: 310.078, printable_offset_y: 250.701 }
+    - { name: Right, width: 923.63636363636, height: 923.63636363636, printable_width: 69.2727272658, printable_height: 475.0129870054, printable_offset_x: 412.338, printable_offset_y: 290.286 }
+    - { name: Left, width: 923.63636363636, height: 923.63636363636, printable_width: 69.2727272658, printable_height: 475.0129870054, printable_offset_x: 438.727, printable_offset_y: 290.286 }
+    - { name: 'Hood left', width: 423.33333333333, height: 423.33333333333, printable_width: 166.3095237938, printable_height: 257.0238095226, printable_offset_x: 123.976, printable_offset_y: 51.4048 }
+    - { name: 'Hood right', width: 423.33333333333, height: 423.33333333333, printable_width: 166.3095237938, printable_height: 257.0238095226, printable_offset_x: 134.56, printable_offset_y: 51.4048 }
+variants:
+    - { name: black, slug: black, additional_price: 0, colors: ['#000000'], orientations: { Front: 445_1_2.png, Back: 445_2_2.png, Right: 445_3_2.png, Left: 445_4_2.png, 'Hood left': 445_6_2.png, 'Hood right': 445_5_2.png }, price: '27.60' }
+    - { name: red, slug: red, additional_price: 0, colors: ['#F51E30'], orientations: { Front: 445_1_5.png, Back: 445_2_5.png, Right: 445_3_5.png, Left: 445_4_5.png, 'Hood left': 445_6_5.png, 'Hood right': 445_5_5.png }, price: '27.60' }
+    - { name: navy, slug: navy, additional_price: 0, colors: ['#00224C'], orientations: { Front: 445_1_4.png, Back: 445_2_4.png, Right: 445_3_4.png, Left: 445_4_4.png, 'Hood left': 445_6_4.png, 'Hood right': 445_5_4.png }, price: '27.60' }
+defaultVariant: red

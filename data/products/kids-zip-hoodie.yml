@@ -1,0 +1,24 @@
+name: 'Kids'' Zip Hoodie'
+slug: kids-zip-hoodie
+description: 'Thick and super cuddly hooded jacket made of sweatshirt material. It offers a hood with a double-bevelled edge outside and very soft fleece inside to provide best comfort wear. There are also two extra pockets on its front along with a solid metal zipper. The double-thread seems make this item rugged, and an extra seem in its neck makes sure that nothing itches. Mp3 player support is granted by an extra vent for the cable in its right pocket. The ear-plug headphones can be hooked onto two small loops inside so that they won''t drop (the loops can also be used to put the jacket on a clothes hanger). The neck label features a name tag where you can write down the owner''s name to avoid disputes over this great jacket. 80% cotton and 20% polyester.'
+category: Hoodies
+position: 0
+price: '20.90'
+sizes:
+    - '98/104 (3-4 years)'
+    - '110/116 (5-6 years)'
+    - '122/128 (7-8 years)'
+    - '134/146 (9-11 years)'
+orientations:
+    - { name: Front, width: 636.7054610564, height: 636.7054610564, printable_width: 250.1342882496, printable_height: 341.092211261, printable_offset_x: 193.286, printable_offset_y: 170.546 }
+    - { name: Back, width: '!!float 700', height: '!!float 700', printable_width: 272.4999999824, printable_height: 309.9999999886, printable_offset_x: '!!float 215', printable_offset_y: 242.5 }
+    - { name: Right, width: 592.17318900916, height: 592.17318900916, printable_width: 69.7918401214, printable_height: 340.499583668, printable_offset_x: 249.559, printable_offset_y: 186.112 }
+    - { name: Left, width: 592.17318900916, height: 592.17318900916, printable_width: 69.7918401214, printable_height: 340.499583668, printable_offset_x: 272.823, printable_offset_y: 186.112 }
+    - { name: 'Hood left', width: 341.7587698222, height: 341.7587698222, printable_width: 140.3652090328, printable_height: 189.1878904322, printable_offset_x: 95.2042, printable_offset_y: 46.3815 }
+    - { name: 'Hood right', width: 341.7587698222, height: 341.7587698222, printable_width: 140.3652090328, printable_height: 189.1878904322, printable_offset_x: 103.748, printable_offset_y: 46.3815 }
+variants:
+    - { name: black, slug: black, additional_price: 0, colors: ['#000000'], orientations: { Front: 678_1_2.png, Back: 678_2_2.png, Right: 678_3_2.png, Left: 678_4_2.png, 'Hood left': 678_6_2.png, 'Hood right': 678_5_2.png }, price: '20.90' }
+    - { name: red, slug: red, additional_price: 0, colors: ['#EA3132'], orientations: { Front: 678_1_421.png, Back: 678_2_421.png, Right: 678_3_421.png, Left: 678_4_421.png, 'Hood left': 678_6_421.png, 'Hood right': 678_5_421.png }, price: '20.90' }
+    - { name: 'heather grey', slug: heather-grey, additional_price: 0, colors: ['#CBCBCB'], orientations: { Front: 678_1_231.png, Back: 678_2_231.png, Right: 678_3_231.png, Left: 678_4_231.png, 'Hood left': 678_6_231.png, 'Hood right': 678_5_231.png }, price: '20.90' }
+    - { name: navy, slug: navy, additional_price: 0, colors: ['#212735'], orientations: { Front: 678_1_399.png, Back: 678_2_399.png, Right: 678_3_399.png, Left: 678_4_399.png, 'Hood left': 678_6_399.png, 'Hood right': 678_5_399.png }, price: '20.90' }
+defaultVariant: black

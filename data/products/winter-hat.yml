@@ -1,0 +1,16 @@
+name: 'Winter Hat'
+slug: winter-hat
+description: 'This practical beanie does exactly what you think it will – keep your head warm when it’s getting colder out there. And your ears will thank you for wearing it as well. The hat is easy to wear and just as easy to stow away in your pocket or bag. One size fits all. Fabric weight: 75 g/m². 100% acrylic.'
+category: Accessories
+position: 0
+price: '10.30'
+sizes:
+    - 'One size'
+orientations:
+    - { name: Front, width: 264.4849386389, height: 264.4849386389, printable_width: 170.0260319818, printable_height: 62.3428783874, printable_offset_x: 45.3403, printable_offset_y: 164.358 }
+variants:
+    - { name: black, slug: black, additional_price: 0, colors: ['#000000'], orientations: { Front: 51_1_2.png }, price: '10.30' }
+    - { name: red, slug: red, additional_price: 0, colors: ['#F51E30'], orientations: { Front: 51_1_5.png }, price: '10.30' }
+    - { name: navy, slug: navy, additional_price: 0, colors: ['#00224C'], orientations: { Front: 51_1_4.png }, price: '10.30' }
+    - { name: asphalt, slug: asphalt, additional_price: 0, colors: ['#333333'], orientations: { Front: 51_1_129.png }, price: '10.30' }
+defaultVariant: black

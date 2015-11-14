@@ -1,0 +1,18 @@
+name: 'Baseball Cap'
+slug: baseball-cap
+description: 'Not many accessories have a following as big as this classic baseball cap. Whether you feel like wearing the visor backwards, sidewards or in front - you''ll always add a degree of coolness to your look. The cap has an adjustable metal closure and a seamless centred front panel. Weight: 80 g. Material: 100% cotton.'
+category: Accessories
+position: 0
+price: '10.30'
+sizes:
+    - 'One size'
+orientations:
+    - { name: Front, width: 259.75164353543, height: 259.75164353543, printable_width: 79.7808619264, printable_height: 50.0949598048, printable_offset_x: 87.2023, printable_offset_y: 81.6362 }
+    - { name: Back, width: 198.4375, height: 198.4375 }
+    - { name: Right, width: 270.31546940327, height: 270.31546940327, printable_width: 80.1292284128, printable_height: 50.201444301, printable_offset_x: 61.7864, printable_offset_y: 86.8871 }
+    - { name: Left, width: 270.31546940327, height: 270.31546940327, printable_width: 80.1292284128, printable_height: 50.201444301, printable_offset_x: 128.4, printable_offset_y: 86.8871 }
+variants:
+    - { name: white/white, slug: white-white, additional_price: 0, colors: ['#FFFFFF'], orientations: { Front: 15_1_10.png, Back: 15_2_10.png, Right: 15_3_10.png, Left: 15_4_10.png }, price: '10.30' }
+    - { name: black/black, slug: black-black, additional_price: 0, colors: ['#000000'], orientations: { Front: 15_1_14.png, Back: 15_2_14.png, Right: 15_3_14.png, Left: 15_4_14.png }, price: '10.30' }
+    - { name: blue/blue, slug: blue-blue, additional_price: 0, colors: ['#222244'], orientations: { Front: 15_1_13.png, Back: 15_2_13.png, Right: 15_3_13.png, Left: 15_4_13.png }, price: '10.30' }
+defaultVariant: white/white

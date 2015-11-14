@@ -1,0 +1,13 @@
+name: 'iPhone 5/5S Premium Case'
+slug: iphone-5-5s-premium-case
+description: "Your iPhone 5 is more than just a phone. It plays your music, takes photos, stores all of your contacts and always has your personal data handy. Make your iPhone as unique as you are, and personalise your our premium covers with your own personal style. What’s so special? You can print on its rear side and on the rims, so that your iPhone 5 shows off a seamless image of your favourite design without losing important detail.   \r\n  \r\n - suitable for iPhone 5S   \r\n - cutouts for camera and toggles  \r\n - dimensions: 12.5 x 6.0 cm  \r\n - material: Plastic"
+category: 'Mobiles and tablets'
+position: 0
+price: '18.50'
+sizes:
+    - 'One size'
+orientations:
+    - { name: Front, width: 145.35050071531, height: 145.35050071531, printable_width: 85.1338646824, printable_height: 144.8313917692, printable_offset_x: 30.1083, printable_offset_y: 0.519109 }
+variants:
+    - { name: white, slug: white, additional_price: 0, colors: ['#FFFFFF'], orientations: { Front: 870_1_1.png }, price: '18.50' }
+defaultVariant: white

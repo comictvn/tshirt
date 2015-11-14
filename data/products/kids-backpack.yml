@@ -1,0 +1,15 @@
+name: 'Kids'' Backpack'
+slug: kids-backpack
+description: 'This rucksack for kids is light as a feather and fits on every toddler''s back. A spacious compartment of 29 x 21 x 12cm (10”x12”x5”) offers enough space for sandwiches and a cuddly blanket. A few bits and bobs fit easily in its front pocket. Double zippers secure the content. Shoulder straps are both adjustable and padded, and the back part is back-stitched. There is also a carrying handle made of nylon and a sewn-in label. Volume: 9 l. Material: 100% polyester.'
+category: Accessories
+position: 0
+price: '13.30'
+sizes:
+    - 'One size'
+orientations:
+    - { name: Front, width: 366.59793814433, height: 366.59793814433, printable_width: 129.6185566882, printable_height: 96.8865979206, printable_offset_x: 119.144, printable_offset_y: 246.144 }
+variants:
+    - { name: sky, slug: sky, additional_price: 0, colors: ['#A0C3D4'], orientations: { Front: 704_1_392.png }, price: '13.30' }
+    - { name: black, slug: black, additional_price: 0, colors: ['#000000'], orientations: { Front: 704_1_2.png }, price: '13.30' }
+    - { name: red, slug: red, additional_price: 0, colors: ['#CB2027'], orientations: { Front: 704_1_367.png }, price: '13.30' }
+defaultVariant: black

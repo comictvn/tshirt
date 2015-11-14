@@ -1,0 +1,24 @@
+name: 'Kids'' Hoodie'
+slug: kids-hoodie
+description: 'Cool kids – why not? Nothing wrong with showing some style when you are young, particularly with this cuddly hoodie. The item is made of strong and rugged material that will keep your kids warm. The double-layered hood and kangaroo pouch are both stylish and useful. Consistency: 280g/m². 80% cotton, 20% polyester.'
+category: Hoodies
+position: 0
+price: '20.50'
+sizes:
+    - '110/116 (5-6 years)'
+    - '122/128 (7-8 years)'
+    - '134/146 (9-11 years)'
+    - '152/164 (12-14 years)'
+orientations:
+    - { name: Front, width: 677.33333333333, height: 677.33333333333, printable_width: 246.7428571356, printable_height: 297.5428571356, printable_offset_x: 217.714, printable_offset_y: 244.324 }
+    - { name: Back, width: '!!float 635', height: '!!float 635', printable_width: 260.8035714068, printable_height: '!!float 254', printable_offset_x: 183.696, printable_offset_y: 235.857 }
+    - { name: Right, width: 677.33333333333, height: 677.33333333333, printable_width: 50.8, printable_height: 246.7428571356, printable_offset_x: 307.219, printable_offset_y: 273.352 }
+    - { name: Left, width: 677.33333333333, height: 677.33333333333, printable_width: 50.8, printable_height: 246.7428571356, printable_offset_x: 307.219, printable_offset_y: 273.352 }
+    - { name: 'Hood left', width: 423.33333333333, height: 423.33333333333, printable_width: 163.2857142712, printable_height: 202.5952380904, printable_offset_x: 111.881, printable_offset_y: 98.2738 }
+    - { name: 'Hood right', width: 423.33333333333, height: 423.33333333333, printable_width: 163.2857142712, printable_height: 202.5952380904, printable_offset_x: 148.167, printable_offset_y: 98.2738 }
+variants:
+    - { name: white, slug: white, additional_price: 0, colors: ['#FFFFFF'], orientations: { Front: 654_1_1.png, Back: 654_2_1.png, Right: 654_3_1.png, Left: 654_4_1.png, 'Hood left': 654_6_1.png, 'Hood right': 654_5_1.png }, price: '20.50' }
+    - { name: black, slug: black, additional_price: 0, colors: ['#000000'], orientations: { Front: 654_1_2.png, Back: 654_2_2.png, Right: 654_3_2.png, Left: 654_4_2.png, 'Hood left': 654_6_2.png, 'Hood right': 654_5_2.png }, price: '20.50' }
+    - { name: 'royal blue', slug: royal-blue, additional_price: 0, colors: ['#484CA2'], orientations: { Front: 654_1_418.png, Back: 654_2_418.png, Right: 654_3_418.png, Left: 654_4_418.png, 'Hood left': 654_6_418.png, 'Hood right': 654_5_418.png }, price: '20.50' }
+    - { name: red, slug: red, additional_price: 0, colors: ['#EA3132'], orientations: { Front: 654_1_421.png, Back: 654_2_421.png, Right: 654_3_421.png, Left: 654_4_421.png, 'Hood left': 654_6_421.png, 'Hood right': 654_5_421.png }, price: '20.50' }
+defaultVariant: white

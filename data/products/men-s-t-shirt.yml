@@ -1,0 +1,24 @@
+name: 'Men''s T-Shirt'
+slug: men-s-t-shirt
+description: "A timeless classic The world’s favourite garment in its purest shape. An essential basic for every day.\r\n\r\n- high quality fashioning with double-stitched seems\r\n- double-layered collar\r\n- straight cut\r\n- rugged fabrics 190g/m²\r\n- Material: 100% cotton"
+category: T-Shirts
+position: 1
+price: '10.90'
+sizes:
+    - S
+    - M
+    - L
+    - XL
+    - XXL
+    - 3XL
+orientations:
+    - { name: Front, width: 686.48648648649, height: 686.48648648649, printable_width: 308.9189189148, printable_height: 566.3513513438, printable_offset_x: 191.236, printable_offset_y: 68.6487 }
+    - { name: Back, width: 684.50433108758, height: 684.50433108758, printable_width: 312.9162656318, printable_height: 596.496631363, printable_offset_x: 190.683, printable_offset_y: 53.7825 }
+    - { name: Right, width: 441.46492861577, height: 441.46492861577, printable_width: 149.782743614, printable_height: 127.709497184, printable_offset_x: 121.403, printable_offset_y: 238.076 }
+    - { name: Left, width: 441.46492861577, height: 441.46492861577, printable_width: 149.782743614, printable_height: 127.709497184, printable_offset_x: 168.703, printable_offset_y: 238.076 }
+variants:
+    - { name: white, slug: white, additional_price: 0, colors: ['#FFFFFF'], orientations: { Front: 6_1_1.png, Back: 6_2_1.png, Right: 6_3_1.png, Left: 6_4_1.png }, price: '10.90' }
+    - { name: black, slug: black, additional_price: 0, colors: ['#000000'], orientations: { Front: 6_1_2.png, Back: 6_2_2.png, Right: 6_3_2.png, Left: 6_4_2.png }, price: '10.90' }
+    - { name: red, slug: red, additional_price: 0, colors: ['#F51E30'], orientations: { Front: 6_1_5.png, Back: 6_2_5.png, Right: 6_3_5.png, Left: 6_4_5.png }, price: '10.90' }
+    - { name: navy, slug: navy, additional_price: 0, colors: ['#00224C'], orientations: { Front: 6_1_4.png, Back: 6_2_4.png, Right: 6_3_4.png, Left: 6_4_4.png }, price: '10.90' }
+defaultVariant: navy

@@ -1,0 +1,15 @@
+name: Mug
+slug: mug
+description: "For every breakfast table: a coffee mug made of white ceramics and handle big enough for 2 or 3 fingers. Feel free to refill with tea, milk or mulled wine. The scratch-proof and UV-resistant print make sure that you’ll be able to enjoy your mug for a long time.   \r\nMaterial: Ceramic. Capacity: 0.3 litres (11 oz)."
+category: Accessories
+position: 0
+price: '7.90'
+sizes:
+    - 'One size'
+orientations:
+    - { name: Front, width: 135.93272171254, height: 135.93272171254, printable_width: 60.1987767574, printable_height: 69.9082568558, printable_offset_x: 37.867, printable_offset_y: 30.0994 }
+    - { name: Right, width: 127.86767349874, height: 127.86767349874, printable_width: 60.2804746382, printable_height: 69.8705501494, printable_offset_x: 16.8968, printable_offset_y: 27.4002 }
+    - { name: Left, width: 127.86767349874, height: 127.86767349874, printable_width: 60.2804746382, printable_height: 69.8705501494, printable_offset_x: 52.9738, printable_offset_y: 26.4869 }
+variants:
+    - { name: white, slug: white, additional_price: 0, colors: ['#FFFFFF'], orientations: { Front: 31_2_1.png, Right: 31_1_1.png, Left: 31_3_1.png }, price: '7.90' }
+defaultVariant: white

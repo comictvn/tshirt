@@ -1,0 +1,13 @@
+name: 'Samsung Galaxy S4 Premium Case'
+slug: samsung-galaxy-s4-premium-case
+description: 'Your Samsung Galaxy S4 is more than just a phone. It plays your music, takes photos, stores all of your contacts and always has your personal data handy. Make your iPhone as unique as you are, and personalise your our premium covers with your own personal style. What’s so special? You can print on its rear side and on the rims, so that your Samsung Galaxy S4 shows off a seamless image of your favourite design without losing important detail. Suitable for Samsung Galaxy S4. Cutouts for camera and toggles. Dimensions: 13.6 x 7.0 cm. Material: Plastic'
+category: 'Mobiles and tablets'
+position: 0
+price: '18.50'
+sizes:
+    - 'One size'
+orientations:
+    - { name: Front, width: 156.06758832565, height: 156.06758832565, printable_width: 91.9684002386, printable_height: 156.0675883214, printable_offset_x: 32.8857, printable_offset_y: '!!float 0' }
+variants:
+    - { name: white, slug: white, additional_price: 0, colors: ['#FFFFFF'], orientations: { Front: 872_1_1.png }, price: '18.50' }
+defaultVariant: white

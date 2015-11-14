@@ -1,0 +1,13 @@
+name: 'iPhone 4/4S Premium Case'
+slug: iphone-4-4s-premium-case
+description: 'Your iPhone is more than just a phone. It plays your music, takes photos, stores all of your contacts and always has your personal data handy. Make your iPhone as unique as you are, and personalise your our premium covers with your own personal style. What’s so special? You can print on its rear side and on the rims, so that your iPhone 4/4S shows off a seamless image of your favourite design without losing important detail. Cutouts for camera and toggles. Dimensions: 11.5 x 6.0 cm. Material: Plastic'
+category: 'Mobiles and tablets'
+position: 0
+price: '18.50'
+sizes:
+    - 'One size'
+orientations:
+    - { name: Front, width: 131.07261334316, height: 131.07261334316, printable_width: 81.9203833268, printable_height: 127.3276815138, printable_offset_x: 24.8102, printable_offset_y: 1.87247 }
+variants:
+    - { name: white, slug: white, additional_price: 0, colors: ['#FFFFFF'], orientations: { Front: 869_1_1.png }, price: '18.50' }
+defaultVariant: white

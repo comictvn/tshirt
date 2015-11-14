@@ -1,0 +1,19 @@
+name: 'Men''s Sports Shorts'
+slug: men-s-sports-shorts
+description: 'Sing when you''re winning! These sports shorts are the perfect companion for all sportive activities. Thanks to the elastic waist you can easily slip into these pants, and the breathable Cool-DRI® fabrics transport perspiration to the outside so that the shorts won''t stick to your body. What''s more, it has pockets to transport a few essentials as well as briefs inside which can also be used to replace underpants. A match winner for comprehensive victories! Ideally combined with Hanes'' tank top. Light consistency of 145 g/m². 100% polyester.'
+category: 'Trousers and jogging bottoms'
+position: 0
+price: '16.10'
+sizes:
+    - S
+    - M
+    - L
+    - XL
+    - XXL
+orientations:
+    - { name: Front, width: 535.94574227581, height: 535.94574227581, printable_width: 403.873398627, printable_height: 350.2788244092, printable_offset_x: 66.9932, printable_offset_y: 111.017 }
+    - { name: Back, width: 558.68028279654, height: 558.68028279654, printable_width: 421.0054988052, printable_height: 359.1516103466, printable_offset_x: 69.835, printable_offset_y: 129.694 }
+variants:
+    - { name: black/grey, slug: black-grey, additional_price: 0, colors: ['#000000', '#717069'], orientations: { Front: 743_1_461.png, Back: 743_2_461.png }, price: '16.10' }
+    - { name: white/grey, slug: white-grey, additional_price: 0, colors: ['#FFFFFF', '#A0A0A0'], orientations: { Front: 743_1_204.png, Back: 743_2_204.png }, price: '16.10' }
+defaultVariant: black/grey

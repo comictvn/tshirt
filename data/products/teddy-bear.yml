@@ -1,0 +1,17 @@
+name: 'Teddy Bear'
+slug: teddy-bear
+description: 'This cute cuddly bear with button eyes and a small t-shirt is for both large and small cuddlers. The bear''s fur has a light, soft-velvet feel under the t-shirt and the bear itself sits at a height of 20 cm (including ears). Highly recommended as a cuddly companion, best friend or bed buddy. Weight: 77 g. 100% polyester.'
+category: Accessories
+position: 0
+price: '13.30'
+sizes:
+    - 'One size'
+orientations:
+    - { name: Front, width: 261.47058823529, height: 261.47058823529, printable_width: 70.0367647014, printable_height: 59.7647058704, printable_offset_x: 97.1176, printable_offset_y: 131.669 }
+    - { name: Back, width: 261.47058823529, height: 261.47058823529, printable_width: 70.0367647014, printable_height: 59.7647058704, printable_offset_x: 97.1176, printable_offset_y: 131.669 }
+variants:
+    - { name: white, slug: white, additional_price: 0, colors: ['#FFFFFF'], orientations: { Front: 623_1_1.png, Back: 623_2_1.png }, price: '13.30' }
+    - { name: black, slug: black, additional_price: 0, colors: ['#000000'], orientations: { Front: 623_1_2.png, Back: 623_2_2.png }, price: '13.30' }
+    - { name: red, slug: red, additional_price: 0, colors: ['#C30125'], orientations: { Front: 623_1_364.png, Back: 623_2_364.png }, price: '13.30' }
+    - { name: 'royal blue', slug: royal-blue, additional_price: 0, colors: ['#3068B4'], orientations: { Front: 623_1_370.png, Back: 623_2_370.png }, price: '13.30' }
+defaultVariant: white

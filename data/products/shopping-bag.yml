@@ -1,0 +1,16 @@
+name: 'Shopping Bag'
+slug: shopping-bag
+description: 'Hit the high-street to shop! And pack your picnic, whilst you’re at it. And your shades. And your camera, sunscreen, Italian phrase book... But how to stash it all away? Easy. No better companion than this maritime linen bag for a day that offers enough room for things to take on a boat trip, to the beach or for a day out about town and/or in the country. The rugged linen fabrics and the super solid handles will resist any strong breeze or heavy load. Not suitable for machine wash. Fabric weight: 475 g/m². Volume: 24 l. 100% cotton.'
+category: Accessories
+position: 0
+price: '16.50'
+sizes:
+    - 'One size'
+orientations:
+    - { name: Front, width: 691.82879377432, height: 691.82879377432, printable_width: 368.1517509696, printable_height: 180.369649801, printable_offset_x: 165.545, printable_offset_y: 343.444 }
+    - { name: Back, width: 691.82879377432, height: 691.82879377432, printable_width: 368.1517509696, printable_height: 180.369649801, printable_offset_x: 165.545, printable_offset_y: 343.444 }
+variants:
+    - { name: lime/ecru, slug: lime-ecru, additional_price: 0, colors: ['#F4F2E2', '#A8C57A'], orientations: { Front: 848_1_529.png, Back: 848_2_529.png }, price: '16.50' }
+    - { name: fuchsia/ecru, slug: fuchsia-ecru, additional_price: 0, colors: ['#F4F2E2', '#D7356E'], orientations: { Front: 848_1_530.png, Back: 848_2_530.png }, price: '16.50' }
+    - { name: navy/ecru, slug: navy-ecru, additional_price: 0, colors: ['#F4F2E2', '#27334E'], orientations: { Front: 848_1_531.png, Back: 848_2_531.png }, price: '16.50' }
+defaultVariant: lime/ecru

@@ -1,0 +1,23 @@
+name: 'Men''s Hoodie'
+slug: men-s-hoodie
+description: "A new home in the cloak of a hoodie. It’s soft and warm to the touch, and ultimately cool to wear. Complete with kangaroo pouch, your hoodie is your perfect daily companion.\r\n\r\n- Straight and formfitting\r\n- Hood with draw cord\r\n- Fleecy inside\r\n- Rugged fabrics: 320g/m²\r\n- Material: 80% cotton, 20% polyester"
+category: Hoodies
+position: 0
+price: '24.20'
+sizes:
+    - S
+    - M
+    - L
+    - XL
+    - XXL
+orientations:
+    - { name: Front, width: 836.70588235294, height: 836.70588235294, printable_width: 343.6470588056, printable_height: 594.658823507, printable_offset_x: 242.047, printable_offset_y: 95.6235 }
+    - { name: Back, width: 859.97581620314, height: 859.97581620314, printable_width: 359.347037464, printable_height: 500.6287786998, printable_offset_x: 242.636, printable_offset_y: 175.066 }
+    - { name: Right, width: 735.47052740434, height: 735.47052740434, printable_width: 70.9203722814, printable_height: 480.682523266, printable_offset_x: 336.215, printable_offset_y: 154.974 }
+    - { name: Left, width: 735.47052740434, height: 735.47052740434, printable_width: 70.9203722814, printable_height: 525.3360909818, printable_offset_x: 330.962, printable_offset_y: 131.334 }
+    - { name: 'Hood left', width: 469.74900924703, height: 469.74900924703, printable_width: 186.2219286476, printable_height: 275.1387053984, printable_offset_x: 140.925, printable_offset_y: 88.9168 }
+    - { name: 'Hood right', width: 469.74900924703, height: 469.74900924703, printable_width: 186.2219286476, printable_height: 275.1387053984, printable_offset_x: 140.925, printable_offset_y: 88.9168 }
+variants:
+    - { name: white, slug: white, additional_price: 0, colors: ['#FFFFFF'], orientations: { Front: 20_1_1.png, Back: 20_2_1.png, Right: 20_3_1.png, Left: 20_4_1.png, 'Hood left': 20_6_1.png, 'Hood right': 20_5_1.png }, price: '24.20' }
+    - { name: black, slug: black, additional_price: 0, colors: ['#000000'], orientations: { Front: 20_1_2.png, Back: 20_2_2.png, Right: 20_3_2.png, Left: 20_4_2.png, 'Hood left': 20_6_2.png, 'Hood right': 20_5_2.png }, price: '24.20' }
+defaultVariant: white

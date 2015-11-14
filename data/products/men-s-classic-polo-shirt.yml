@@ -1,0 +1,24 @@
+name: 'Men''s Classic Polo Shirt'
+slug: men-s-classic-polo-shirt
+description: 'Check out our amazing quality 65% Polyester 35% cotton classic mens polo shirt. Weight: 165 grams. Made from easy care pique fabric it is ideally suited for workwear. This style has a taped neckline for added comfort, three buttoned fused placket and sewn in spare button. Ribbed flat knit collar and cuffs. For neatness and added strength there is twin needle stitching at shoulder and hem. We are able to offer this polo shirt in wide range of colours.'
+category: T-Shirts
+position: 0
+price: '18.40'
+sizes:
+    - M
+    - L
+    - XL
+    - XXL
+orientations:
+    - { name: Front, width: 864.15552855407, height: 864.15552855407, printable_width: 317.885783709, printable_height: 629.5990279216, printable_offset_x: 271.592, printable_offset_y: 148.141 }
+    - { name: Back, width: 847.6758045292, height: 847.6758045292, printable_width: 329.9880810436, printable_height: 663.0035756666, printable_offset_x: 257.33, printable_offset_y: 105.959 }
+    - { name: Right, width: 384.01727861771, height: 384.01727861771, printable_width: 115.2051835846, printable_height: 181.036717047, printable_offset_x: 116.577, printable_offset_y: 152.235 }
+    - { name: Left, width: 384.01727861771, height: 384.01727861771, printable_width: 115.2051835846, printable_height: 181.036717047, printable_offset_x: 153.607, printable_offset_y: 152.235 }
+variants:
+    - { name: white, slug: white, additional_price: 0, colors: ['#FFFFFF'], orientations: { Front: 25_1_1.png, Back: 25_2_1.png, Right: 25_3_1.png, Left: 25_4_1.png }, price: '18.40' }
+    - { name: black, slug: black, additional_price: 0, colors: ['#000000'], orientations: { Front: 25_1_2.png, Back: 25_2_2.png, Right: 25_3_2.png, Left: 25_4_2.png }, price: '18.40' }
+    - { name: red, slug: red, additional_price: 0, colors: ['#F51E30'], orientations: { Front: 25_1_5.png, Back: 25_2_5.png, Right: 25_3_5.png, Left: 25_4_5.png }, price: '18.40' }
+    - { name: navy, slug: navy, additional_price: 0, colors: ['#2B2A37'], orientations: { Front: 25_1_440.png, Back: 25_2_440.png, Right: 25_3_440.png, Left: 25_4_440.png }, price: '18.40' }
+    - { name: 'sky blue', slug: sky-blue, additional_price: 0, colors: ['#BAD0E4'], orientations: { Front: 25_1_63.png, Back: 25_2_63.png, Right: 25_3_63.png, Left: 25_4_63.png }, price: '18.40' }
+    - { name: khaki, slug: khaki, additional_price: 0, colors: ['#B9B87F'], orientations: { Front: 25_1_16.png, Back: 25_2_16.png, Right: 25_3_16.png, Left: 25_4_16.png }, price: '18.40' }
+defaultVariant: 'sky blue'

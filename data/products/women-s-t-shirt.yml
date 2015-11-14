@@ -1,0 +1,23 @@
+name: 'Women''s T-Shirt'
+slug: women-s-t-shirt
+description: "A timeless classic The world’s favourite garment in its purest feminine shape. An essential basic for every day.\r\n\r\n- high quality fashioning with double-stitched seems\r\n- Round neck and shorter sleeves\r\n- formfitting\r\n- rugged and opaque fabrics 190g/m²\r\n- Material: 100% cotton"
+category: T-Shirts
+position: 4
+price: '10.90'
+sizes:
+    - S
+    - M
+    - L
+    - XL
+    - XXL
+orientations:
+    - { name: Front, width: 648.90510948905, height: 648.90510948905, printable_width: 289.6897810206, printable_height: 484.361313851, printable_offset_x: 180.766, printable_offset_y: 97.3358 }
+    - { name: Back, width: 672.21172022684, height: 672.21172022684, printable_width: 304.8960302372, printable_height: 549.7731568904, printable_offset_x: 184.858, printable_offset_y: 60.0189 }
+    - { name: Right, width: 226.71342046541, height: 226.71342046541, printable_width: 106.8791839298, printable_height: 90.6853681844, printable_offset_x: 35.6264, printable_offset_y: 86.6369 }
+    - { name: Left, width: 226.71342046541, height: 226.71342046541, printable_width: 106.8791839298, printable_height: 90.6853681844, printable_offset_x: 84.2078, printable_offset_y: 86.6369 }
+variants:
+    - { name: white, slug: white, additional_price: 0, colors: ['#FFFFFF'], orientations: { Front: 631_1_1.png, Back: 631_2_1.png, Right: 631_3_1.png, Left: 631_4_1.png }, price: '10.90' }
+    - { name: black, slug: black, additional_price: 0, colors: ['#000000'], orientations: { Front: 631_1_2.png, Back: 631_2_2.png, Right: 631_3_2.png, Left: 631_4_2.png }, price: '10.90' }
+    - { name: red, slug: red, additional_price: 0, colors: ['#F51E30'], orientations: { Front: 631_1_5.png, Back: 631_2_5.png, Right: 631_3_5.png, Left: 631_4_5.png }, price: '10.90' }
+    - { name: navy, slug: navy, additional_price: 0, colors: ['#00224C'], orientations: { Front: 631_1_4.png, Back: 631_2_4.png, Right: 631_3_4.png, Left: 631_4_4.png }, price: '10.90' }
+defaultVariant: white
