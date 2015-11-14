@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'courier_primeregular';
+    src: url('Courier_Prime-webfont.eot');
+    src: url('Courier_Prime-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Courier_Prime-webfont.woff') format('woff'),
+         url('Courier_Prime-webfont.ttf') format('truetype'),
+         url('Courier_Prime-webfont.svg#courier_primeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

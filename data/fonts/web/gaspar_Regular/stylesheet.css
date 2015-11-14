@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'gasparregular';
+    src: url('Gaspar_Regular-webfont.eot');
+    src: url('Gaspar_Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Gaspar_Regular-webfont.woff') format('woff'),
+         url('Gaspar_Regular-webfont.ttf') format('truetype'),
+         url('Gaspar_Regular-webfont.svg#gasparregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

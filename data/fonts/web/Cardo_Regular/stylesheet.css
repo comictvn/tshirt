@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'cardoregular';
+    src: url('Cardo104s-webfont.eot');
+    src: url('Cardo104s-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Cardo104s-webfont.woff') format('woff'),
+         url('Cardo104s-webfont.ttf') format('truetype'),
+         url('Cardo104s-webfont.svg#cardoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
