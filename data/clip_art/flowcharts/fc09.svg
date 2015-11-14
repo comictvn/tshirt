@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="400pt" width="400pt">
+ <path d="m430.57 149.31c-3.22 0-6.36 0.57-9.47 1.35-20.91 0.32-354.84 5.5-359.18 9.84-4.478 4.48-30.203 43.65-26.846 109.66-3.357 101.81 49.218 121.97 49.218 121.97l346.28-1.13h0.57v-0.06c37.1-0.55 67.12-54.42 67.12-120.78 0-66.7-30.32-120.85-67.69-120.85z" fill-rule="evenodd" fill-opacity=".25" fill="#000000"/>
+ <path stroke-linejoin="round" d="m418.19 376.43l-346.84 1.12c-0.003 0-52.589-20.14-49.232-121.96-3.356-66.01 22.377-105.17 26.852-109.64 4.476-4.48 370.34-10.07 370.34-10.07l-1.12 240.55z" fill-rule="evenodd" stroke="#000000" stroke-width="10" fill="#ffffff"/>
+ <path stroke-linejoin="round" d="m495.65 253.86a234.96 236.08 0 1 0 -469.92 0 234.96 236.08 0 1 0 469.92 0h-234.96z" transform="matrix(.28810 0 0 .51185 342.52 125.66)" stroke="#000000" stroke-width="26.041" fill="none"/>
+ <path d="m495.65 253.86a234.96 236.08 0 1 0 -469.92 0 234.96 236.08 0 1 0 469.92 0h-234.96z" fill-rule="evenodd" transform="matrix(.28095 0 0 .50237 343.83 128.06)" fill="#ffffff"/>
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <Work rdf:about="">
+   <dc:title>Clipart by Nicu Buculei - fc23</dc:title>
+   <dc:rights>
+    <Agent>
+     <dc:title>Nicu Buculei</dc:title>
+    </Agent>
+   </dc:rights>
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+   <license rdf:resource="http://web.resource.org/cc/PublicDomain"/>
+  </Work>
+  <License rdf:about="http://web.resource.org/cc/PublicDomain">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+   <permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+  </License>
+ </rdf:RDF>
+</svg>

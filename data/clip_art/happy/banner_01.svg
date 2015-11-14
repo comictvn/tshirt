@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 20010904//EN'  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg xmlns="http://www.w3.org/2000/svg" height="400pt" width="400pt" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <path d="m3.896 162.02s107.14-10.71 157.78 0c50.65 10.71 132.47 30.19 163.64 30.19s81.82 4.87 119.8-6.81l37.99-11.69s-34.09 63.31-57.47 80.84c-5.84 1.95 0.98 0.97-1.95 0.97 11.69 21.43 36.04 37.02 47.73 52.6 7.79 7.79 6.82 10.72 6.82 9.74 0-0.97-129.54 7.79-178.24-1.95-77.93-20.45-84.74-30.19-180.2-31.17-69.152-2.92-102.27 15.59-102.27 15.59 0.002 0 43.832-65.26 50.65-71.1 6.818-5.85-60.388-69.16-64.284-67.21z" fill-rule="evenodd" stroke="#000000" stroke-width="3.75" fill="#ffffff"/>
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <Work rdf:about="">
+   <dc:title>Clipart by Nicu Buculei - baloon1_04</dc:title>
+   <dc:rights>
+    <Agent>
+     <dc:title>Nicu Buculei</dc:title>
+    </Agent>
+   </dc:rights>
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+   <license rdf:resource="http://web.resource.org/cc/PublicDomain"/>
+  </Work>
+  <License rdf:about="http://web.resource.org/cc/PublicDomain">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+   <permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+  </License>
+ </rdf:RDF>
+</svg>

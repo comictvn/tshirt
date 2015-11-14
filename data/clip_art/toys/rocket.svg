@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 20010904//EN'  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg xmlns="http://www.w3.org/2000/svg" height="400pt" width="400pt" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g fill-rule="evenodd">
+  <path d="m271.34 362.64s12.71 37.3 27.13 68.68c14.41 31.37 39.85 46.63 43.24 46.63s6.79-17.8 5.94-27.98c-0.85-10.17-24.59-30.52 16.11 1.7s69.53 45.79 66.98 34.76c4.24-27.13-43.24-83.94-12.71-73.77 30.52 10.18 82.24 33.92 50.02-3.39s-65.29-54.27-37.31-53.42c27.99 0.85 55.12 13.57 41.55-11.02-13.56-24.59-78.83-62.83-106.81-78.94-22.05 11.02-65.32 39.94-94.14 96.75z" transform="matrix(1.0041 0 0 1.0147 -1.1119 -7.2235)" stroke-width="3.75" fill="#fffffff33300"/>
+  <path stroke-linejoin="round" d="m284.05 339.74s9.33 44.94 19.51 58.51c10.17 13.57 12.72 11.87 15.26-6.78 2.54-18.66-15.26-37.31 15.26-16.96 30.53 20.35 56.81 45.79 41.55 14.41-15.26-31.37-19.5-39 1.69-27.98 21.2 11.02 41.55 19.5 16.12-11.02-19.51-22.05 19.5-27.98 26.28-30.53 16.11 2.55-68.68-44.94-77.16-44.94-9.33 1.7-55.12 58.51-58.51 65.29z" fill-opacity=".69630" stroke-width="12.5" fill="#fffffff33"/>
+  <path stroke-linejoin="round" d="m43.244 60.776c78.856 1.696 278.12 33.917 354.44 229.78-26.29 5.09-90.73 67.84-100.91 102.6-194.17-99.2-249.29-256.07-253.53-332.38z" transform="translate(-25.438 -29.677)" stroke="#000000" stroke-width="10" fill="#cccccc"/>
+  <g stroke-linejoin="round" stroke="#000000" fill="#cccccc">
+   <g stroke-width="10">
+    <path d="m189.09 321.94s3.39 86.48 3.39 87.33 104.29 48.33 110.23 50.88l-5.09-67.84c-9.33 0.85-92.42-52.57-108.53-70.37z" transform="translate(-25.438 -29.677)"/>
+    <path d="m190.76 322.82s1.72 85.6 1.72 86.45 104.29 48.33 110.23 50.88l-5.09-67.84c-32.81-9.9-87.42-49.05-106.86-69.49z" transform="matrix(-.024575 .99970 .99970 .024575 -13.306 -47.284)"/>
+    <path d="m235.32 210.17s14.26 34.12 16.66 39.68c2.96 3.75 77.59 64.66 83.07 68.08l-3.18-21.68c-7.99-7.7-76.8-68.02-96.55-86.08z"/>
+    <path d="m232.64 209.4l-16.77 24.28 20.64 35.73 85.76 67.75 12.38-18.55-81.99-69.24-20.02-39.97z"/>
+   </g>
+   <path d="m124.64 131.15c-28.825 39.01 30.53 87.34 58.51 52.57 33.92-42.39-24.59-83.09-58.51-52.57z" stroke-width="12.5"/>
+  </g>
+  <path stroke-linejoin="round" d="m132.28 135.39c21.19-20.35 70.37 4.24 48.33 40.7-24.59 31.38-74.62-8.47-48.33-40.7z" stroke="#000000" stroke-width="10" fill="#99ffff"/>
+  <path stroke-linejoin="round" d="m148.39 134.5c-6.86 4.74-24.9 19.63-10.18 37.35 12.72 3.4 30.53-35.65 10.18-37.35z" fill-opacity=".75" stroke-width="12.5" fill="#ffffff"/>
+ </g>
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <Work rdf:about="">
+   <dc:title>Clipart by Nicu Buculei - piggybank</dc:title>
+   <dc:rights>
+    <Agent>
+     <dc:title>Nicu Buculei</dc:title>
+    </Agent>
+   </dc:rights>
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+   <license rdf:resource="http://web.resource.org/cc/PublicDomain"/>
+  </Work>
+  <License rdf:about="http://web.resource.org/cc/PublicDomain">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+   <permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+  </License>
+ </rdf:RDF>
+</svg>

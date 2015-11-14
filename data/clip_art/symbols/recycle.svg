@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 20010904//EN'  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg xmlns="http://www.w3.org/2000/svg" height="400pt" width="400pt" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g fill-rule="evenodd">
+  <g stroke-linejoin="round" stroke="#000000" fill="#009900">
+   <path d="m116.16 143.02l54.27 34.77 61.9-121.25 37.31-0.003 61.05 113.62-34.77 16.11 94.97 10.17 43.25-66.98-44.1 18.65-71.22-124.64-142.45-1.698-60.21 121.25z" stroke-width="10"/>
+   <path d="m107.9 154l51.49 36.68 75.28-126.68 37.93-2.32 66.84 112.8-33.06 19.44 75.18 5.07 36.81-71.19-30.01 17.94-69.54-122.27-136.33 5.537-74.59 124.99z" transform="matrix(-.49922 .86648 -.86648 -.49922 604.19 175.99)" stroke-width="10"/>
+   <path d="m105.81 164.71l57.08 28.96 56.63-113.2 36.53-4.171 82.41 110.17-39.04 16.4 89.36-1.25 44.94-69.99-39.41 19.25-92.93-124.7-125.01-4.408-70.56 142.94z" transform="matrix(-.44433 -.89586 .89586 -.44433 132.38 607.74)" stroke-width="10"/>
+  </g>
+  <g fill="#ffffff">
+   <path d="m30.525 324.48c-0.848 0 56.811-117.86 67.834-133.97-3.392-16.11-44.729-30-13.356-21.52 31.377 8.48 50.667-4.77 43.037 31.69-18.66 39.01-49.183 59.36-97.515 123.8z" fill-opacity=".5"/>
+   <path d="m280.03 362.32c-1.7 52.57 29.76 37.71 29.88 44.73 0.11 5.9-30.1-18.02-30.94 48.12-17.81-25.44-27.14-34.24-27.56-46.64-0.43-12.4 10.81-22.89 28.62-46.21z" fill-opacity=".49804"/>
+   <path d="m293.38 89.606s32.22 59.354 43.24 80.554c-5.93 9.32-41.12 14.73-8.05 13.88 44.09 1.7 41.97 13.25 58.93-6.25-0.85-27.13-94.97-87.336-94.12-88.184z" fill-opacity=".49804"/>
+  </g>
+ </g>
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <Work rdf:about="">
+   <dc:title>Clipart by Nicu Buculei - nosmoke</dc:title>
+   <dc:rights>
+    <Agent>
+     <dc:title>Nicu Buculei</dc:title>
+    </Agent>
+   </dc:rights>
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+   <license rdf:resource="http://web.resource.org/cc/PublicDomain"/>
+  </Work>
+  <License rdf:about="http://web.resource.org/cc/PublicDomain">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+   <permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+  </License>
+ </rdf:RDF>
+</svg>

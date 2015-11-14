@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 20010904//EN'  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg xmlns="http://www.w3.org/2000/svg" height="400pt" width="400pt" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g stroke-linejoin="bevel" fill-rule="evenodd" stroke="#000000" stroke-width="3.75">
+  <path d="m381.05 374.18c3.71-0.42 69.9 7.15 74.65-9.46 11.86-33.23-8.71-60.92-37.19-71.21-28.48-5.54-24.52-2.37-61.71-7.91-34.02-44.3-18.98-113.92-100.47-108.38-91.77-2.38-106.01 75.94-136.08 98.89-21.358 25.31-102.05-11.08-104.43 31.64-3.162 15.03-5.535 51.43 18.99 67.25 11.867 0 31.646 0.79 39.557 0.79 0.791-56.17 67.243-47.47 68.043-1.58 18.19 1.58 156.64-1.58 166.13-2.37-0.82-51.5 75.74-53.26 72.51 2.34z" transform="translate(12.5 -57.5)" fill="#ff0000"/>
+  <path d="m128.16 284.02s39.56-70.41 70.42-88.61c19.77-8.7 35.6-13.45 49.05-12.66 0.79-5.53 4.74 89.4-1.59 102.06-12.65 3.17-112.34 0.79-117.88-0.79z" transform="translate(12.5 -57.5)" fill="#00ffff"/>
+  <path d="m255.54 182.75s-4.75 99.69 3.16 102.85c13.45 0.79 83.07 2.37 86.24-4.75-14.24-7.12-12.66-107.59-89.4-98.1z" transform="translate(12.5 -57.5)" fill="#00ffff"/>
+  <path d="m23.734 294.3c-5.538 7.12-6.329 15.04-4.747 24.53 13.45 6.33 26.899-33.23 4.747-24.53z" transform="translate(12.5 -57.5)" fill="#fffffffcc"/>
+  <path d="m439.87 312.5c1.59-9.49-14.24-13.45-13.45 0-1.58 13.45 14.24 13.45 13.45 0z" transform="translate(23.576 -45.633)" fill="#990000"/>
+  <path d="m10.285 351.26s3.164-11.07 20.569-1.58c16.614 13.45-22.152 22.95-20.569 1.58z" transform="translate(12.5 -57.5)" fill="#cccccc"/>
+  <path d="m10.285 351.26s3.164-11.07 20.569-1.58c16.614 13.45-22.152 22.95-20.569 1.58z" transform="matrix(-1 0 0 1 487.33 -60.665)" fill="#cccccc"/>
+ </g>
+ <path stroke-linejoin="bevel" d="m127.37 284.02c22.15 47.47 18.2 83.86 19.78 83.86 3.17 0 91.77 2.37 99.69-1.58 3.16-18.99-1.59-82.28-1.59-82.28-8.7 3.16-100.47 2.37-117.88 0z" transform="translate(12.5 -57.5)" stroke="#000000" stroke-width="3.75" fill="none"/>
+ <path stroke-linejoin="bevel" d="m257.91 284.81c0.79 6.33-2.37 79.91-2.37 82.28 13.45 0 37.18 1.58 47.47-2.37 7.91-30.86 29.13-34.02 38.76-38.77 3.17-5.54 3.17-45.1 3.17-45.1-3.17 6.33-58.55 5.54-87.03 3.96z" transform="translate(12.5 -57.5)" stroke="#000000" stroke-width="3.75" fill="none"/>
+ <g fill-rule="evenodd">
+  <path stroke-linejoin="bevel" d="m238.13 296.68c-0.79-6.33-20.57-6.33-22.15 1.58 0.79 8.7 21.36 7.91 22.15-1.58z" transform="translate(12.5 -57.5)" stroke="#000000" stroke-width="3.75" fill="#cccccc"/>
+  <path stroke-linejoin="bevel" d="m238.13 296.68c-0.79-6.33-20.57-6.33-22.15 1.58 0.79 8.7 21.36 7.91 22.15-1.58z" transform="translate(115.35 -62.247)" stroke="#000000" stroke-width="3.75" fill="#cccccc"/>
+  <path d="m137.66 276.9c15.03-18.99 30.85-76.74 100.47-90.19-12.65 36.39-70.41 93.35-100.47 90.19z" fill-opacity=".71111" transform="translate(12.5 -57.5)" fill="#ffffff"/>
+  <path d="m261.08 188.29c-3.17 5.54-3.96 51.43 2.37 80.7 18.99-61.71 42.72-89.4-2.37-80.7z" fill-opacity=".71373" transform="translate(12.5 -57.5)" fill="#ffffff"/>
+ </g>
+ <g transform="matrix(.99913 -.041688 .041688 .99913 -2.8884 -52.638)" stroke="#000000">
+  <path stroke-linejoin="bevel" d="m105.22 341.89c-31.652-2.5-41.787 56.37 1.25 60.68 47.79-0.79 32.87-61.47-1.25-60.68z" fill-rule="evenodd" transform="translate(1.5823 -.79113)" stroke-width="3.75" fill="#669999"/>
+  <path d="m107.01 353.23c17.04-2.95 32.71 32.49 2.27 37.26-26.127-0.45-22.037-34.08-2.27-37.26z" fill-rule="evenodd" stroke-width="3.75" fill="#cccccc"/>
+  <g fill="none">
+   <path d="m107.46 368.68c5.46-1.82 7.27 7.5 2.5 6.82-6.36 2.5-8.4-5.46-2.5-6.82z" stroke-width="3.75"/>
+   <g stroke-width="1.25">
+    <path d="m107.69 357.09c-2.73 0-1.82 8.18 0.91 7.96 2.73-0.23 1.59-8.18-0.91-7.96z"/>
+    <path d="m107.69 357.09c-2.73 0-1.82 8.18 0.91 7.96 2.73-0.23 1.59-8.18-0.91-7.96z" transform="translate(1.5904 22.038)"/>
+    <path d="m107.69 357.09c-2.73 0-1.82 8.18 0.91 7.96 2.73-0.23 1.59-8.18-0.91-7.96z" transform="matrix(6.123e-17 1 -1 6.123e-17 480.31 263.41)"/>
+    <path d="m107.69 357.09c-2.73 0-1.82 8.18 0.91 7.96 2.73-0.23 1.59-8.18-0.91-7.96z" transform="matrix(6.123e-17 1 -1 6.123e-17 459.18 265.91)"/>
+   </g>
+  </g>
+ </g>
+ <g transform="matrix(.69584 -.71820 .71820 .69584 15.102 128.74)" stroke="#000000">
+  <path stroke-linejoin="bevel" d="m105.22 341.89c-31.652-2.5-41.787 56.37 1.25 60.68 47.79-0.79 32.87-61.47-1.25-60.68z" fill-rule="evenodd" transform="translate(1.5823 -.79113)" stroke-width="3.75" fill="#669999"/>
+  <path d="m107.01 353.23c17.04-2.95 32.71 32.49 2.27 37.26-26.127-0.45-22.037-34.08-2.27-37.26z" fill-rule="evenodd" stroke-width="3.75" fill="#cccccc"/>
+  <g fill="none">
+   <path d="m107.46 368.68c5.46-1.82 7.27 7.5 2.5 6.82-6.36 2.5-8.4-5.46-2.5-6.82z" stroke-width="3.75"/>
+   <g stroke-width="1.25">
+    <path d="m107.69 357.09c-2.73 0-1.82 8.18 0.91 7.96 2.73-0.23 1.59-8.18-0.91-7.96z"/>
+    <path d="m107.69 357.09c-2.73 0-1.82 8.18 0.91 7.96 2.73-0.23 1.59-8.18-0.91-7.96z" transform="translate(1.5904 22.038)"/>
+    <path d="m107.69 357.09c-2.73 0-1.82 8.18 0.91 7.96 2.73-0.23 1.59-8.18-0.91-7.96z" transform="matrix(6.123e-17 1 -1 6.123e-17 480.31 263.41)"/>
+    <path d="m107.69 357.09c-2.73 0-1.82 8.18 0.91 7.96 2.73-0.23 1.59-8.18-0.91-7.96z" transform="matrix(6.123e-17 1 -1 6.123e-17 459.18 265.91)"/>
+   </g>
+  </g>
+ </g>
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <Work rdf:about="">
+   <dc:title>Clipart by Nicu Buculei - piggybank</dc:title>
+   <dc:rights>
+    <Agent>
+     <dc:title>Nicu Buculei</dc:title>
+    </Agent>
+   </dc:rights>
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+   <license rdf:resource="http://web.resource.org/cc/PublicDomain"/>
+  </Work>
+  <License rdf:about="http://web.resource.org/cc/PublicDomain">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+   <permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+  </License>
+ </rdf:RDF>
+</svg>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 20010904//EN'  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg xmlns="http://www.w3.org/2000/svg" height="400pt" width="400pt" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <path d="m426.28 378.05l-346.84 1.11c-0.002 0-84.072-22.22-80.716-124.04-12.616-85.48 57.566-108.64 62.041-113.12s366.64-4.5 366.64-4.5l-1.12 240.55z" fill-rule="evenodd" transform="matrix(-2.9543e-16 -.60412 1.6083 -1.1097e-16 -165.22 394.59)" stroke="#000000" stroke-width="3.75" fill="#cccccc"/>
+ <path d="m495.65 253.86a234.96 236.08 0 1 0 -469.92 0 234.96 236.08 0 1 0 469.92 0h-234.96z" transform="matrix(-8.5112e-17 -.17404 .82320 -5.6801e-17 39.477 182.77)" stroke="#000000" stroke-width="9.7655" fill="none"/>
+ <path d="m495.65 253.86a234.96 236.08 0 1 0 -469.92 0 234.96 236.08 0 1 0 469.92 0h-234.96z" fill-rule="evenodd" transform="matrix(-8.3001e-17 -.16973 .80796 -5.5749e-17 43.347 181.99)" stroke-width="3.75" fill="#cccccc"/>
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <Work rdf:about="">
+   <dc:title>Clipart by Nicu Buculei - antenna</dc:title>
+   <dc:rights>
+    <Agent>
+     <dc:title>Nicu Buculei</dc:title>
+    </Agent>
+   </dc:rights>
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+   <license rdf:resource="http://web.resource.org/cc/PublicDomain"/>
+  </Work>
+  <License rdf:about="http://web.resource.org/cc/PublicDomain">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+   <permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+  </License>
+ </rdf:RDF>
+</svg>

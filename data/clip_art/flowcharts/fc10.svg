@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 20010904//EN'  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg xmlns="http://www.w3.org/2000/svg" height="400pt" width="400pt" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g fill-rule="evenodd">
+  <path d="m495.65 253.86a234.96 236.08 0 1 0 -469.92 0 234.96 236.08 0 1 0 469.92 0h-234.96z" fill-opacity="0.25" transform="matrix(.99048 0 0 .99052 1.1234 4.1628)" stroke-width="3.75"/>
+  <path stroke-linejoin="round" d="m495.65 253.86a234.96 236.08 0 1 0 -469.92 0 234.96 236.08 0 1 0 469.92 0h-234.96z" transform="translate(-15.922 -6.334)" stroke="#000000" stroke-width="10" fill="#ffffff"/>
+  <path d="m495.65 253.86a234.96 236.08 0 1 0 -469.92 0 234.96 236.08 0 1 0 469.92 0h-234.96z" transform="matrix(.88373 0 0 .92883 21.67 6.8778)" stroke-width="3.75" fill="#ffffff"/>
+ </g>
+ <path stroke-linejoin="round" d="m249.5 478.74c232.72-5.59 232.72-5.59 232.72-5.59" transform="translate(-12.566 5.9732)" stroke="#000000" stroke-width="10" fill="none"/>
+ <path stroke-linejoin="round" d="m253.12 486.33c232.72-5.59 232.72-5.59 232.72-5.59" stroke-opacity="0.25" transform="translate(-8.0906 4.8544)" stroke="#000000" stroke-width="10" fill="none"/>
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <Work rdf:about="">
+   <dc:title>Clipart by Nicu Buculei - fc23</dc:title>
+   <dc:rights>
+    <Agent>
+     <dc:title>Nicu Buculei</dc:title>
+    </Agent>
+   </dc:rights>
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+   <license rdf:resource="http://web.resource.org/cc/PublicDomain"/>
+  </Work>
+  <License rdf:about="http://web.resource.org/cc/PublicDomain">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+   <permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+  </License>
+ </rdf:RDF>
+</svg>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="400pt" width="400pt">
+ <path d="m183.54 186.71s229.44-6.33 234.18 1.58c4.75 7.91 33.23 58.55 33.23 58.55s-30.06-53.8-267.41-60.13z" fill-opacity=".25185" fill-rule="evenodd" fill="#000000"/>
+ <g stroke-linejoin="bevel" stroke="#000000" stroke-width="3.75" fill-rule="evenodd">
+  <path d="m33.75 181.25l443.75 1.25 3.75 86.25-448.75 1.25 1.25-88.75z" transform="translate(-3.75 70)" fill="#333333"/>
+  <path d="m32.5 180c1.25-1.25 75-68.75 75-68.75h318.75l51.25 72.5-445-3.75z" transform="translate(-3.75 70)" fill="#333333"/>
+  <path d="m51.25 201.25v17.5h18.75v-17.5h-18.75z" transform="translate(387.5 65)"/>
+  <path d="m51.25 201.25v17.5h18.75v-17.5h-18.75z" transform="translate(353.75 65)"/>
+  <path d="m51.25 201.25v17.5h18.75v-17.5h-18.75z" transform="translate(322.5 65)"/>
+  <path d="m51.25 201.25v17.5h18.75v-17.5h-18.75z" transform="translate(290 65)"/>
+  <path d="m51.25 201.25v17.5h18.75v-17.5h-18.75z" transform="translate(258.75 65)"/>
+  <path d="m51.25 201.25v17.5h18.75v-17.5h-18.75z" transform="translate(228.75 65)"/>
+  <path d="m51.25 201.25v17.5h18.75v-17.5h-18.75z" transform="translate(198.75 65)"/>
+  <path d="m51.25 201.25v17.5h18.75v-17.5h-18.75z" transform="translate(168.75 65)"/>
+  <path d="m51.25 201.25v17.5h18.75v-17.5h-18.75z" transform="translate(138.75 65)"/>
+  <path d="m51.25 201.25v17.5h18.75v-17.5h-18.75z" transform="translate(107.5 65)"/>
+  <path d="m51.25 201.25v17.5h18.75v-17.5h-18.75z" transform="translate(78.75 65)"/>
+  <path d="m51.25 201.25v17.5h18.75v-17.5h-18.75z" transform="translate(48.75 65)"/>
+  <path d="m51.25 201.25v17.5h18.75v-17.5h-18.75z" transform="translate(17.5 65)"/>
+  <path d="m51.25 201.25v17.5h18.75v-17.5h-18.75z" transform="translate(-11.25 65)"/>
+  <path d="m51.25 201.25v17.5h18.75v-17.5h-18.75z" transform="translate(388.75 103.75)"/>
+  <path d="m51.25 201.25v17.5h18.75v-17.5h-18.75z" transform="translate(355 103.75)"/>
+  <path d="m51.25 201.25v17.5h18.75v-17.5h-18.75z" transform="translate(323.75 103.75)"/>
+  <path d="m51.25 201.25v17.5h18.75v-17.5h-18.75z" transform="translate(291.25 103.75)"/>
+  <path d="m51.25 201.25v17.5h18.75v-17.5h-18.75z" transform="translate(260 103.75)"/>
+  <path d="m51.25 201.25v17.5h18.75v-17.5h-18.75z" transform="translate(230 103.75)"/>
+  <path d="m51.25 201.25v17.5h18.75v-17.5h-18.75z" transform="translate(200 103.75)"/>
+  <path d="m51.25 201.25v17.5h18.75v-17.5h-18.75z" transform="translate(170 103.75)"/>
+  <path d="m51.25 201.25v17.5h18.75v-17.5h-18.75z" transform="translate(140 103.75)"/>
+  <path d="m51.25 201.25v17.5h18.75v-17.5h-18.75z" transform="translate(108.75 103.75)"/>
+  <path d="m51.25 201.25v17.5h18.75v-17.5h-18.75z" transform="translate(80 103.75)"/>
+  <path d="m51.25 201.25v17.5h18.75v-17.5h-18.75z" transform="translate(50 103.75)"/>
+  <path d="m51.25 201.25v17.5h18.75v-17.5h-18.75z" transform="translate(18.75 103.75)"/>
+  <path d="m51.25 201.25v17.5h18.75v-17.5h-18.75z" transform="translate(-10 103.75)"/>
+ </g>
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <Work rdf:about="">
+   <dc:title>Clipart by Nicu Buculei - antenna</dc:title>
+   <dc:rights>
+    <Agent>
+     <dc:title>Nicu Buculei</dc:title>
+    </Agent>
+   </dc:rights>
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+   <license rdf:resource="http://web.resource.org/cc/PublicDomain"/>
+  </Work>
+  <License rdf:about="http://web.resource.org/cc/PublicDomain">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+   <permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+  </License>
+ </rdf:RDF>
+</svg>

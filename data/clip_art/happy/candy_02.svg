@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.0//EN'  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg xmlns="http://www.w3.org/2000/svg" height="80pt" width="80pt" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g stroke="#000000" transform="translate(1.3466 3.0779)">
+  <g stroke-linejoin="round" fill-rule="evenodd" stroke-width="1pt">
+   <path d="m74.631 31.705c1.157-0.422 4.741 0.989 3.606-5.281-1.136-6.269-0.829-7.18-0.829-7.18s7.655 3.188 7.346 4.707c-0.309 1.52-1.651 2.489 0.656 4.078 2.306 1.589-1.035 0.058 1.512 2.742 2.546 2.685 7.349 3.492 6.13 4.096-1.218 0.604-8.76 0.093-11.555-0.646-2.796-0.739-3.096-2.26-4.017 0.474-0.921 2.735-4.007-2.568-2.849-2.99z" fill="#ccff00"/>
+   <path d="m6.8449 67.237s4.3731 2.082 6.7451 2.272c2.372 0.191 3.953 0.317 3.953 0.317 1.95-0.967 5.945 5.251 4.486 4.76-1.458-0.492-2.493-0.434-4.327 2.602-2.081 3.764-4.462 6.616-4.462 6.616s-0.539-2.618-0.109-3.894c0.429-1.276 0.497-3.283-1.508-3.959-2.0057-0.675-5.3328-6.465-4.7781-8.714z" fill="#ccff00"/>
+   <path d="m17.65 69.802c1.95-0.967-3.745-6.319-2.638-10.209 1.108-3.889 49.078-33.597 50.415-33.349 3.069-0.33 3.891 1.101 5.466 3.053s2.303 2.806 3.46 2.384c1.157-0.423 3.771 0.255 2.849 2.989-0.921 2.735 2.29 7.541 1.004 10.152-1.286 2.612-47.251 33.462-49.199 33.82-1.948 0.359-5.413-3.59-6.871-4.081s-4.486-4.759-4.486-4.759z" fill="#ff00cc"/>
+  </g>
+  <g stroke-width="1pt" fill="none">
+   <path d="m75.023 31.518l2.308 2.693"/>
+   <path d="m77.331 30.171s2.501 2.116 2.116 2.886"/>
+   <path d="m15.774 69.221s1.539 5.771 2.116 6.926c0.577 1.154 0.577 0.961 0.577 0.961"/>
+   <path d="m17.698 69.606s0.577 4.617 1.539 5.002"/>
+  </g>
+  <g stroke-width="1pt">
+   <path d="m41.359 40.559l9.426-5.771 5.386 26.162-9.041 5.963s-4.232-25.008-5.771-26.354z" fill-rule="evenodd" fill="#33ff00"/>
+   <path d="m30.009 78.07l-5.001-26.354 8.656-6.156s5.194 25.393 5.194 26.547c-1.539 1.731-8.849 5.963-8.849 5.963z" fill-rule="evenodd" fill="#33ff00"/>
+   <path d="m19.237 64.412s-2.886-2.501-0.193-5.194 22.892-16.543 22.892-16.543" fill="none"/>
+   <path d="m63.289 56.14l-4.617-26.161s6.733-4.617 8.464-3.848c1.731 0.77 4.809 22.892 4.232 24.046s-8.079 5.963-8.079 5.963z" fill-rule="evenodd" fill="#33ff00"/>
+  </g>
+  <g stroke-width="1pt" fill="none">
+   <path d="m52.516 37.289s11.542-10.196 13.273-9.426c1.732 0.769 3.655 2.308 3.655 2.308"/>
+   <path d="m36.742 68.26s25.008-17.506 28.278-18.66 3.078-1.154 3.078-1.154"/>
+   <path d="m84.064 23.438s-0.962 4.232-4.232 5.386"/>
+   <path d="m85.795 29.017s-4.039 3.27-5.386 2.116"/>
+   <path d="m10.195 74.608c1.924 1.731 5.387-1.347 5.387-1.347"/>
+   <path d="m13.658 78.647c2.693-0.192 1.924-1.346 2.693-3.462"/>
+  </g>
+ </g>
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <Work rdf:about="">
+   <dc:title>Candy</dc:title>
+   <dc:rights>
+    <Agent>
+     <dc:title>Nicu Buculei</dc:title>
+    </Agent>
+   </dc:rights>
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+   <license rdf:resource="http://web.resource.org/cc/PublicDomain"/>
+  </Work>
+  <License rdf:about="http://web.resource.org/cc/PublicDomain">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+   <permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+  </License>
+ </rdf:RDF>
+</svg>

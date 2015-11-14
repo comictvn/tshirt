@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 20010904//EN'  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg xmlns="http://www.w3.org/2000/svg" height="400pt" width="400pt" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g stroke-linejoin="round" stroke="#000000" stroke-width="10" fill-rule="evenodd">
+  <path d="m33.75 58.75h425l2.5 317.5h-426.25l-1.25-317.5z" transform="translate(8.75 30)" fill="#666699"/>
+  <path d="m210 76.25l232.5 1.25v58.75h-232.5v-60z" transform="translate(6.25 25)" fill="#9999cc"/>
+  <path d="m220 85h213.75v42.5h-213.75v-42.5z" transform="translate(6.25 25)" fill="#99cccc"/>
+ </g>
+ <g stroke-linejoin="round" fill-rule="evenodd" stroke="#000000" stroke-width="10.835" fill="#999999">
+  <path d="m53.75 147.5h35v33.75h-35v-33.75z" transform="matrix(1 0 0 .85185 25 63.102)"/>
+  <path d="m53.75 147.5h35v33.75h-35v-33.75z" transform="matrix(1 0 0 .85185 76.25 63.102)"/>
+  <path d="m53.75 147.5h35v33.75h-35v-33.75z" transform="matrix(1 0 0 .85185 127.5 64.352)"/>
+  <path d="m53.75 147.5h35v33.75h-35v-33.75z" transform="matrix(1 0 0 .85185 183.75 64.352)"/>
+  <path d="m53.75 147.5h35v33.75h-35v-33.75z" transform="matrix(1 0 0 .85185 237.5 63.102)"/>
+  <path d="m53.75 147.5h35v33.75h-35v-33.75z" transform="matrix(1 0 0 .85185 291.25 64.352)"/>
+  <path d="m53.75 147.5h35v33.75h-35v-33.75z" transform="matrix(1 0 0 .85185 343.75 63.102)"/>
+  <path d="m53.75 147.5h35v33.75h-35v-33.75z" transform="matrix(1 0 0 .85185 25 116.85)"/>
+  <path d="m53.75 147.5h35v33.75h-35v-33.75z" transform="matrix(1 0 0 .85185 76.25 116.85)"/>
+  <path d="m53.75 147.5h35v33.75h-35v-33.75z" transform="matrix(1 0 0 .85185 127.5 118.1)"/>
+  <path d="m53.75 147.5h35v33.75h-35v-33.75z" transform="matrix(1 0 0 .85185 183.75 118.1)"/>
+  <path d="m53.75 147.5h35v33.75h-35v-33.75z" transform="matrix(1 0 0 .85185 237.5 116.85)"/>
+  <path d="m53.75 147.5h35v33.75h-35v-33.75z" transform="matrix(1 0 0 .85185 291.25 118.1)"/>
+  <path d="m53.75 147.5h35v33.75h-35v-33.75z" transform="matrix(1 0 0 .85185 343.75 116.85)"/>
+  <path d="m53.75 147.5h35v33.75h-35v-33.75z" transform="matrix(1 0 0 .85185 25 170.6)"/>
+  <path d="m53.75 147.5h35v33.75h-35v-33.75z" transform="matrix(1 0 0 .85185 76.25 170.6)"/>
+  <path d="m53.75 147.5h35v33.75h-35v-33.75z" transform="matrix(1 0 0 .85185 127.5 171.85)"/>
+  <path d="m53.75 147.5h35v33.75h-35v-33.75z" transform="matrix(1 0 0 .85185 183.75 171.85)"/>
+  <path d="m53.75 147.5h35v33.75h-35v-33.75z" transform="matrix(1 0 0 .85185 237.5 170.6)"/>
+  <path d="m53.75 147.5h35v33.75h-35v-33.75z" transform="matrix(1 0 0 .85185 291.25 171.85)"/>
+  <path d="m53.75 147.5h35v33.75h-35v-33.75z" transform="matrix(1 0 0 .85185 343.75 170.6)"/>
+  <path d="m53.75 147.5h35v33.75h-35v-33.75z" transform="matrix(1 0 0 .85185 25 221.85)"/>
+  <path d="m53.75 147.5h35v33.75h-35v-33.75z" transform="matrix(1 0 0 .85185 76.25 221.85)"/>
+  <path d="m53.75 147.5h35v33.75h-35v-33.75z" transform="matrix(1 0 0 .85185 127.5 223.1)"/>
+  <path d="m53.75 147.5h35v33.75h-35v-33.75z" transform="matrix(1 0 0 .85185 183.75 223.1)"/>
+  <path d="m53.75 147.5h35v33.75h-35v-33.75z" transform="matrix(1 0 0 .85185 237.5 221.85)"/>
+  <path d="m53.75 147.5h35v33.75h-35v-33.75z" transform="matrix(1 0 0 .85185 291.25 223.1)"/>
+  <path d="m53.75 147.5h35v33.75h-35v-33.75z" transform="matrix(1 0 0 .85185 343.75 221.85)"/>
+ </g>
+ <g stroke-linejoin="round" fill="none">
+  <g stroke="#000000" stroke-width="10">
+   <path d="m423.75 116.25l1.25 23.75"/>
+   <path d="m407.5 126.25h-15v-10h16.25l1.25 23.75"/>
+   <path d="m385 137.5h5"/>
+   <path d="m353.75 117.5h17.5v10h-15s1.25 12.5 0 12.5h16.25"/>
+   <path d="m317.5 116.25v12.5l18.75 1.25v13.75"/>
+  </g>
+  <path d="m61.25 112.5l77.5 1.25" stroke="#ffffff" stroke-width="12.5"/>
+  <path d="m58.75 133.75l78.75 1.25" stroke="#ffffff" stroke-width="12.5"/>
+ </g>
+ <path d="m53.183 274.7c1.582-6.33-11.076-148.73 4.747-177.21 28.481-3.168 128.16-1.586 151.9 3.16-53.8 3.17-151.9-41.138-156.65 174.05z" fill-rule="evenodd" fill-opacity="0.5" stroke-width="1pt" fill="#ffffff"/>
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <Work rdf:about="">
+   <dc:title>Clipart by Nicu Buculei - book_01</dc:title>
+   <dc:rights>
+    <Agent>
+     <dc:title>Nicu Buculei</dc:title>
+    </Agent>
+   </dc:rights>
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+   <license rdf:resource="http://web.resource.org/cc/PublicDomain"/>
+  </Work>
+  <License rdf:about="http://web.resource.org/cc/PublicDomain">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+   <permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+  </License>
+ </rdf:RDF>
+</svg>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" height="400pt" width="400pt">
+ <defs>
+  <filter id="filter3239">
+   <feGaussianBlur stdDeviation="6.9230635"/>
+  </filter>
+ </defs>
+ <path d="m257.44 30.841c-109.18 1.754-205.48 62.596-225.93 148.91-23.353 98.6 61.086 193.27 188.51 211.4 0.03 0.16-0.02 0.38-0.03 0.6l-0.73 0.03-99.29 92.34 204-95.84-2.01 0.06 1.31-1 2.92-0.09-2.22 1.03 2.8-0.1v-0.96h0.03c88.27-19.45 150.16-72.14 166.71-141.97 23.36-98.64-61.18-193.36-188.69-211.44-15.94-2.26-31.78-3.22-47.38-2.969z" fill-opacity=".49804" fill-rule="evenodd" filter="url(#filter3239)" stroke-width="2.5" fill="#000000"/>
+ <path stroke-linejoin="round" d="m241.67 22.75c-109.18 1.754-205.48 62.597-225.92 148.91-23.359 98.6 61.08 193.27 188.5 211.4 0.03 0.15-0.02 0.38-0.03 0.6l-0.73 0.03-99.29 92.34 204-95.84-2.01 0.06 1.31-1 2.93-0.09-2.23 1.03 2.8-0.1v-0.97h0.04c88.27-19.44 150.16-72.13 166.7-141.96 23.37-98.64-61.18-193.37-188.69-211.44-15.94-2.261-31.78-3.221-47.38-2.97z" fill-rule="evenodd" stroke="#000000" stroke-width="10" fill="#ffffff"/>
+</svg>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 20010904//EN'  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg xmlns="http://www.w3.org/2000/svg" height="400pt" width="400pt" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g stroke-linejoin="bevel" fill-rule="evenodd" stroke="#000000">
+  <path d="m157.22 412.76c0.91 52.71 198.11 52.71 197.2 0.91-0.9-55.44-195.38-56.35-197.2-0.91z" stroke-width="3.75" fill="#663333"/>
+  <path d="m212.66 306.43l-0.91 107.23c7.94 11.82 76.77 13.64 88.15-0.9v-107.24c-10 15.45-67.25 20.9-87.24 0.91z" transform="matrix(.61856 0 0 1 98.944 -.90881)" stroke-width="4.7681" fill="#663333"/>
+  <g stroke-width="3.75">
+   <path d="m248.1 24.708c-3.64 10.905-113.6 87.242-176.31 125.41 37.26 100.87 322.62 97.24 353.52 0-53.62-15.45-174.49-115.42-177.21-125.41z" transform="translate(.90878 139.04)" fill="#009900"/>
+   <path d="m248.1 24.708c-3.64 10.905-79.98 87.242-142.68 125.41 39.08 56.34 250.82 62.71 285.36-1.82-53.62-15.45-139.96-113.6-142.68-123.59z" transform="translate(-3.7253e-7 71.794)" fill="#009900"/>
+   <path d="m157.34 412.76l1.26 19.08c42.71 49.98 181.72 37.39 194.45 0.13l1.15-19.21c1.82 53.62-194.13 50.89-196.86 0z" fill="#663333"/>
+   <path d="m248.1 24.708c-3.64 10.905-40.9 82.702-103.6 120.87 37.26 44.53 178.12 48.16 212.65 0.9-53.62-15.44-106.33-111.78-109.05-121.77z" fill="#009900"/>
+  </g>
+ </g>
+ <g fill="#ffffff" fill-rule="evenodd">
+  <path d="m247.19 38.34c-28.17 52.709-76.34 98.15-95.42 107.24 8.18 14.54 54.52 29.08 73.61 26.35-11.82-30.9-9.09-59.98 21.81-133.59z" fill-opacity=".5"/>
+  <path d="m179.94 171.93c-11.82 10-54.53 43.62-65.43 50.89-8.18 0.91 42.71 29.08 60.89 29.08-39.99-23.62 41.8-74.52 4.54-79.97z" fill-opacity=".49804"/>
+  <path d="m140.86 250.99c-14.54 9.09-38.17 26.36-62.705 39.08 5.453 19.99 45.435 45.44 54.525 48.17-36.349-45.44 42.72-78.16 8.18-87.25z" fill-opacity=".49804"/>
+  <g fill-opacity=".3">
+   <path d="m233.31 366.28c0.81 12.73-1.67 37.21 0.31 47.01 13.64 6.77 22.66 5.26 33.34 4.82-13.63-5.45-24.63-15.72-33.65-51.83z"/>
+   <path d="m222.46 376.37c-20.66 2.76-67.15 14.81-60.95 39.61 6.19 22.72 51.99 27.2 64.74 30.64-6.2-7.23-54.41-40.63-3.79-70.25z"/>
+   <path d="m161.16 428.03c2.41 1.03 11.71 13.77 47.52 28.93-15.15-4.14-45.45-16.54-47.52-28.93z" transform=""/>
+  </g>
+ </g>
+ <g fill="#000000" fill-rule="evenodd">
+  <path d="m315.44 454.54c14.12-6.2 31.33-11.02 34.43-22.04 5.17-10.33-1.37 3.79-34.43 22.04z" fill-opacity=".25"/>
+  <g fill-opacity=".24706">
+   <path d="m287.89 377.41c38.57 0 96.07 33.74 39.94 60.95 34.79-39.95-39.94-59.92-39.94-60.95z"/>
+   <path d="m259.65 366.04s20.32-2.75 21.69-0.34c1.38 2.41 0.35 21.35-0.34 26.17-1.03-9.3 1.38-23.07-21.35-25.83z"/>
+   <path d="m387.93 328.06c13.26-5.21 30.79-26.52 33.63-35.52-3.32-3.79-36-17.06-43.58-23.69 5.69 9.48 31.74 28.9 9.95 59.21z"/>
+   <path d="m352.4 245.64c18.48-7.1 29.84-16.58 32.21-22.73-9-3.79-29.36-17.05-39.31-22.74 7.58 8.05 23.21 21.32 7.1 45.47z"/>
+   <path d="m305.04 115.86c7.58 10.9 41.68 31.74 45.47 32.68-4.74 7.58-28.42 19.9-37.42 20.84-4.74-0.47 23.68-16.57-8.05-53.52z"/>
+  </g>
+ </g>
+ <g fill-rule="evenodd" transform="translate(-249.19 169.47)">
+  <path d="m424.69 52.534c20.77-0.67 20.77 29.474 1.34 29.474-24.79 0.67-21.44-28.804-1.34-29.474z" stroke="#000000" stroke-width="3.75" fill="#ffff00000"/>
+  <path d="m425.36 55.214c-2.01-2.01-23.44 8.708-9.38 20.096 8.71-0.67 11.39-18.087 9.38-20.096z" fill-opacity=".7" fill="#ffffff"/>
+ </g>
+ <g fill-rule="evenodd" transform="translate(-46.89 243.83)">
+  <path d="m424.69 52.534c20.77-0.67 20.77 29.474 1.34 29.474-24.79 0.67-21.44-28.804-1.34-29.474z" stroke="#000000" stroke-width="3.75" fill="#ffff00000"/>
+  <path d="m425.36 55.214c-2.01-2.01-23.44 8.708-9.38 20.096 8.71-0.67 11.39-18.087 9.38-20.096z" fill-opacity=".7" fill="#ffffff"/>
+ </g>
+ <g fill-rule="evenodd" transform="translate(-226.41 271.29)">
+  <path d="m424.69 52.534c20.77-0.67 20.77 29.474 1.34 29.474-24.79 0.67-21.44-28.804-1.34-29.474z" stroke="#000000" stroke-width="3.75" fill="#ffff00000"/>
+  <path d="m425.36 55.214c-2.01-2.01-23.44 8.708-9.38 20.096 8.71-0.67 11.39-18.087 9.38-20.096z" fill-opacity=".7" fill="#ffffff"/>
+ </g>
+ <g fill-rule="evenodd" transform="translate(-117.9 83.732)">
+  <path d="m424.69 52.534c20.77-0.67 20.77 29.474 1.34 29.474-24.79 0.67-21.44-28.804-1.34-29.474z" stroke="#000000" stroke-width="3.75" fill="#ffff00000"/>
+  <path d="m425.36 55.214c-2.01-2.01-23.44 8.708-9.38 20.096 8.71-0.67 11.39-18.087 9.38-20.096z" fill-opacity=".7" fill="#ffffff"/>
+ </g>
+ <g fill-rule="evenodd" transform="translate(-236.46 103.16)">
+  <path d="m424.69 52.534c20.77-0.67 20.77 29.474 1.34 29.474-24.79 0.67-21.44-28.804-1.34-29.474z" stroke="#000000" stroke-width="3.75" fill="#ffff000ff"/>
+  <path d="m425.36 55.214c-2.01-2.01-23.44 8.708-9.38 20.096 8.71-0.67 11.39-18.087 9.38-20.096z" fill-opacity=".7" stroke-width="1pt" fill="#ffffff"/>
+ </g>
+ <g fill-rule="evenodd" transform="translate(-85.742 124.59)">
+  <path d="m424.69 52.534c20.77-0.67 20.77 29.474 1.34 29.474-24.79 0.67-21.44-28.804-1.34-29.474z" stroke="#000000" stroke-width="3.75" fill="#ffff000ff"/>
+  <path d="m425.36 55.214c-2.01-2.01-23.44 8.708-9.38 20.096 8.71-0.67 11.39-18.087 9.38-20.096z" fill-opacity=".7" stroke-width="1pt" fill="#ffffff"/>
+ </g>
+ <g fill-rule="evenodd" transform="translate(-144.02 236.46)">
+  <path d="m424.69 52.534c20.77-0.67 20.77 29.474 1.34 29.474-24.79 0.67-21.44-28.804-1.34-29.474z" stroke="#000000" stroke-width="3.75" fill="#ffff000ff"/>
+  <path d="m425.36 55.214c-2.01-2.01-23.44 8.708-9.38 20.096 8.71-0.67 11.39-18.087 9.38-20.096z" fill-opacity=".7" stroke-width="1pt" fill="#ffffff"/>
+ </g>
+ <g fill-rule="evenodd" transform="translate(-158.76 60.287)">
+  <path d="m424.69 52.534c20.77-0.67 20.77 29.474 1.34 29.474-24.79 0.67-21.44-28.804-1.34-29.474z" stroke="#000000" stroke-width="3.75" fill="#0000ff"/>
+  <path d="m425.36 55.214c-2.01-2.01-23.44 8.708-9.38 20.096 8.71-0.67 11.39-18.087 9.38-20.096z" fill-opacity=".7" stroke-width="1pt" fill="#ffffff"/>
+ </g>
+ <g fill-rule="evenodd" transform="translate(-300.77 212.35)">
+  <path d="m424.69 52.534c20.77-0.67 20.77 29.474 1.34 29.474-24.79 0.67-21.44-28.804-1.34-29.474z" stroke="#000000" stroke-width="3.75" fill="#0000ff"/>
+  <path d="m425.36 55.214c-2.01-2.01-23.44 8.708-9.38 20.096 8.71-0.67 11.39-18.087 9.38-20.096z" fill-opacity=".7" stroke-width="1pt" fill="#ffffff"/>
+ </g>
+ <g fill-rule="evenodd" transform="translate(-109.19 185.55)">
+  <path d="m424.69 52.534c20.77-0.67 20.77 29.474 1.34 29.474-24.79 0.67-21.44-28.804-1.34-29.474z" stroke="#000000" stroke-width="3.75" fill="#0000ff"/>
+  <path d="m425.36 55.214c-2.01-2.01-23.44 8.708-9.38 20.096 8.71-0.67 11.39-18.087 9.38-20.096z" fill-opacity=".7" stroke-width="1pt" fill="#ffffff"/>
+ </g>
+ <g fill-rule="evenodd" transform="translate(-192.92 111.87)">
+  <path d="m424.69 52.534c20.77-0.67 20.77 29.474 1.34 29.474-24.79 0.67-21.44-28.804-1.34-29.474z" stroke="#000000" stroke-width="3.75" fill="#00ffff"/>
+  <path d="m425.36 55.214c-2.01-2.01-23.44 8.708-9.38 20.096 8.71-0.67 11.39-18.087 9.38-20.096z" fill-opacity=".7" stroke-width="1pt" fill="#ffffff"/>
+ </g>
+ <g fill-rule="evenodd" transform="translate(-101.15 279.33)">
+  <path d="m424.69 52.534c20.77-0.67 20.77 29.474 1.34 29.474-24.79 0.67-21.44-28.804-1.34-29.474z" stroke="#000000" stroke-width="3.75" fill="#00ffff"/>
+  <path d="m425.36 55.214c-2.01-2.01-23.44 8.708-9.38 20.096 8.71-0.67 11.39-18.087 9.38-20.096z" fill-opacity=".7" stroke-width="1pt" fill="#ffffff"/>
+ </g>
+ <g fill-rule="evenodd" transform="translate(-293.4 267.94)">
+  <path d="m424.69 52.534c20.77-0.67 20.77 29.474 1.34 29.474-24.79 0.67-21.44-28.804-1.34-29.474z" stroke="#000000" stroke-width="3.75" fill="#00ff00"/>
+  <path d="m425.36 55.214c-2.01-2.01-23.44 8.708-9.38 20.096 8.71-0.67 11.39-18.087 9.38-20.096z" fill-opacity=".7" stroke-width="1pt" fill="#ffffff"/>
+ </g>
+ <g fill-rule="evenodd" transform="translate(-203.64 194.93)">
+  <path d="m424.69 52.534c20.77-0.67 20.77 29.474 1.34 29.474-24.79 0.67-21.44-28.804-1.34-29.474z" stroke="#000000" stroke-width="3.75" fill="#00ff00"/>
+  <path d="m425.36 55.214c-2.01-2.01-23.44 8.708-9.38 20.096 8.71-0.67 11.39-18.087 9.38-20.096z" fill-opacity=".7" stroke-width="1pt" fill="#ffffff"/>
+ </g>
+ <g fill-rule="evenodd" transform="translate(-81.053 214.35)">
+  <path d="m424.69 52.534c20.77-0.67 20.77 29.474 1.34 29.474-24.79 0.67-21.44-28.804-1.34-29.474z" stroke="#000000" stroke-width="3.75" fill="#ffff00"/>
+  <path d="m425.36 55.214c-2.01-2.01-23.44 8.708-9.38 20.096 8.71-0.67 11.39-18.087 9.38-20.096z" fill-opacity=".7" stroke-width="1pt" fill="#ffffff"/>
+ </g>
+ <g fill-rule="evenodd" transform="translate(-146.03 146.03)">
+  <path d="m424.69 52.534c20.77-0.67 20.77 29.474 1.34 29.474-24.79 0.67-21.44-28.804-1.34-29.474z" stroke="#000000" stroke-width="3.75" fill="#ffff00"/>
+  <path d="m425.36 55.214c-2.01-2.01-23.44 8.708-9.38 20.096 8.71-0.67 11.39-18.087 9.38-20.096z" fill-opacity=".7" stroke-width="1pt" fill="#ffffff"/>
+ </g>
+ <g fill-rule="evenodd" transform="translate(-231.77 227.75)">
+  <path d="m424.69 52.534c20.77-0.67 20.77 29.474 1.34 29.474-24.79 0.67-21.44-28.804-1.34-29.474z" stroke="#000000" stroke-width="3.75" fill="#ffff00"/>
+  <path d="m425.36 55.214c-2.01-2.01-23.44 8.708-9.38 20.096 8.71-0.67 11.39-18.087 9.38-20.096z" fill-opacity=".7" stroke-width="1pt" fill="#ffffff"/>
+ </g>
+ <g fill-rule="evenodd" transform="translate(-202.97 64.976)">
+  <path d="m424.69 52.534c20.77-0.67 20.77 29.474 1.34 29.474-24.79 0.67-21.44-28.804-1.34-29.474z" stroke="#000000" stroke-width="3.75" fill="#ff9900"/>
+  <path d="m425.36 55.214c-2.01-2.01-23.44 8.708-9.38 20.096 8.71-0.67 11.39-18.087 9.38-20.096z" fill-opacity=".7" stroke-width="1pt" fill="#ffffff"/>
+ </g>
+ <g fill-rule="evenodd" transform="translate(-158.09 287.37)">
+  <path d="m424.69 52.534c20.77-0.67 20.77 29.474 1.34 29.474-24.79 0.67-21.44-28.804-1.34-29.474z" stroke="#000000" stroke-width="3.75" fill="#ff9900"/>
+  <path d="m425.36 55.214c-2.01-2.01-23.44 8.708-9.38 20.096 8.71-0.67 11.39-18.087 9.38-20.096z" fill-opacity=".7" stroke-width="1pt" fill="#ffffff"/>
+ </g>
+ <g fill-rule="evenodd" transform="translate(-152.73 188.23)">
+  <path d="m424.69 52.534c20.77-0.67 20.77 29.474 1.34 29.474-24.79 0.67-21.44-28.804-1.34-29.474z" stroke="#000000" stroke-width="3.75" fill="#ff9900"/>
+  <path d="m425.36 55.214c-2.01-2.01-23.44 8.708-9.38 20.096 8.71-0.67 11.39-18.087 9.38-20.096z" fill-opacity=".7" stroke-width="1pt" fill="#ffffff"/>
+ </g>
+ <g fill-rule="evenodd" transform="translate(-140 25)">
+  <polygon fill="#ffff00000" transform="matrix(.99434 -.10623 .10623 .99434 -2.3444 42.913)" stroke="#000000" stroke-width="3.75" points="418.66 76.649 399.53 56.504 376.86 72.559 390.11 48.14 367.83 31.538 395.15 36.592 404.06 10.276 407.69 37.819 435.47 38.157 410.4 50.125"/>
+  <path d="m388.53 62.81c13.26-22.097-7.73-21.035-6.74-23.459 17.35 5.089 17.23-3.805 19-15.337 2.65 16.31 5.92 19.751-12.26 38.796z" fill-opacity=".5" fill="#ffffff"/>
+ </g>
+ <g fill-rule="evenodd" transform="translate(-216.14 24.929)">
+  <path d="m424.69 52.534c20.77-0.67 20.77 29.474 1.34 29.474-24.79 0.67-21.44-28.804-1.34-29.474z" stroke="#000000" stroke-width="3.75" fill="#00ff00"/>
+  <path d="m425.36 55.214c-2.01-2.01-23.44 8.708-9.38 20.096 8.71-0.67 11.39-18.087 9.38-20.096z" fill-opacity=".7" stroke-width="1pt" fill="#ffffff"/>
+ </g>
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <Work rdf:about="">
+   <dc:title>Clipart by Nicu Buculei - baloon1_04</dc:title>
+   <dc:rights>
+    <Agent>
+     <dc:title>Nicu Buculei</dc:title>
+    </Agent>
+   </dc:rights>
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+   <license rdf:resource="http://web.resource.org/cc/PublicDomain"/>
+  </Work>
+  <License rdf:about="http://web.resource.org/cc/PublicDomain">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+   <permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+  </License>
+ </rdf:RDF>
+</svg>

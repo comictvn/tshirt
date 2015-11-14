@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 20010904//EN'  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg xmlns="http://www.w3.org/2000/svg" height="400pt" width="400pt" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g transform="translate(0 -3.2362)">
+  <path d="m74.92 51.587l408.11-0.981v446.4l-410.06 0.98 1.95-446.4z" fill-opacity=".25" fill-rule="evenodd"/>
+  <g stroke="#000000">
+   <path stroke-linejoin="round" d="m52.596 39.295l408.1-0.974v443.17l-410.05 0.98 1.946-443.18z" fill-rule="evenodd" transform="translate(-1.948 -3.896)" stroke-width="10" fill="#ffffff"/>
+   <path stroke-linejoin="round" d="m142.2 36.373c-2.92 439.28-0.97 438.31-0.97 438.31" transform="matrix(1 0 0 1.0067 0 -.24250)" stroke-width="7.4751" fill="none"/>
+   <path d="m51.622 126.96c406.16 0 408.11 0.97 408.11 0.97" stroke-width="7.5" fill="none"/>
+  </g>
+ </g>
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <Work rdf:about="">
+   <dc:title>Clipart by Nicu Buculei - fc23</dc:title>
+   <dc:rights>
+    <Agent>
+     <dc:title>Nicu Buculei</dc:title>
+    </Agent>
+   </dc:rights>
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+   <license rdf:resource="http://web.resource.org/cc/PublicDomain"/>
+  </Work>
+  <License rdf:about="http://web.resource.org/cc/PublicDomain">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+   <permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+  </License>
+ </rdf:RDF>
+</svg>

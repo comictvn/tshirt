@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 20010904//EN'  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg xmlns="http://www.w3.org/2000/svg" height="400pt" width="400pt" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g fill-rule="evenodd">
+  <g>
+   <g stroke="#000000">
+    <g stroke-linejoin="round" stroke-width="10">
+     <path d="m159.02 181.17l261.87 0.79v194.62l-260.29 1.58-1.58-196.99z" transform="translate(-17.484 55.585)" fill="#fffffff00"/>
+     <path d="m159.02 180.38c-10.29-3.16-30.06-3.16-37.18-27.69v201.74s11.07 25.32 38.76 23.73c0.79-9.49-1.58-200.15-1.58-197.78z" transform="translate(-17.484 55.585)" fill="#ffcc00"/>
+     <path d="m122.63 153.48c5.8-11.87 177.74-5.54 266.61-4.75 7.91 0 28.48 11.08 31.65 32.44 0 2.37-262.66 0-262.66 0-2.37-3.95-26.9 0-35.6-27.69z" transform="translate(-17.484 55.585)" fill="#fffffff00"/>
+     <path d="m142.4 180.38c0-0.79-2.37-77.53-0.79-104.43 30.86-112.34 212.03-77.532 214.4-1.583 2.38 43.513 0.79 107.59 0.79 106.8-6.33 12.66-31.64 8.7-37.18 0.79 0-9.49-0.79-50.63 0-103.64-18.99-62.497-128.96-56.168-142.4-4.744 0 53.794 0.79 109.17 0.79 109.17-4.75 7.91-29.27 14.24-35.61-2.37z" transform="translate(10.206 38.972)" fill="#333333"/>
+    </g>
+    <path d="m214.4 411.39l103.64 0.79-35.6-90.98c15.03 2.38 40.34-59.33-15.83-65.66-57.75 7.12-37.97 63.29-18.19 67.24l-34.02 88.61z" transform="translate(6.25 -3.75)" stroke-width="3.75"/>
+   </g>
+   <path d="m141.61 429.59s19.78-139.24 90.19-178.8c-20.56-6.33-97.31-6.33-90.19 0.79-0.79 14.24-0.79 179.59 0 178.01z" transform="translate(6.25 -3.75)" fill="#ffcc00"/>
+   <path d="m141.61 211.23c-11.86-0.79-31.59 0.88-36.39 2.38-2.6 9.31 15.82 18.19 27.69 21.36 29.01 4.75 56.44 3.16 84.65 2.37-22.94-1.84-63.29 1.85-68.83-5.54-6.33-4.48-11.86-13.71-7.12-20.57z" transform="translate(6.25 -3.75)" fill="#ffcc00"/>
+  </g>
+  <g fill="#ffffff">
+   <path d="m389.24 245.25s7.12 171.68-2.37 185.92c-14.24 0.79-79.91-0.79-79.91-0.79 27.69-20.57 68.04-53.01 82.28-185.13z" fill-opacity=".75" transform="translate(6.25 -3.75)"/>
+   <path d="m366.3 211.23s7.91 8.71 2.37 15.04c-2.37 9.49-53.8 11.07-68.83 11.86 22.15 0.79 83.07 0 90.98-1.58 5.54-1.58-16.61-27.69-24.52-25.32z" fill-opacity=".75" transform="translate(6.25 -3.75)"/>
+   <path d="m238.13 52.215c4.75-3.956 77.93-2.912 110.22 40.365 10.05 9.97 9.25 62.48 8.45 93.34-10.28-30.06-3.95-106.02-118.67-133.7z" fill-opacity=".5" transform="translate(6.25 -3.75)"/>
+  </g>
+ </g>
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <Work rdf:about="">
+   <dc:title>Clipart by Nicu Buculei - nosmoke</dc:title>
+   <dc:rights>
+    <Agent>
+     <dc:title>Nicu Buculei</dc:title>
+    </Agent>
+   </dc:rights>
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+   <license rdf:resource="http://web.resource.org/cc/PublicDomain"/>
+  </Work>
+  <License rdf:about="http://web.resource.org/cc/PublicDomain">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+   <permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+  </License>
+ </rdf:RDF>
+</svg>

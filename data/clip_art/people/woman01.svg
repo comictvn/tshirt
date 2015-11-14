@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 20010904//EN'  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg xmlns="http://www.w3.org/2000/svg" height="400pt" width="400pt" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g fill-rule="evenodd">
+  <path d="m318.87 89.945a66.012 62.096 0 1 0 -132.02 0 66.012 62.096 0 1 0 132.02 0h-66.01z" transform="translate(-11.188 -13.426)"/>
+  <rect height="118.61" width="106.29" y="153.16" x="195.8"/>
+  <rect height="158.88" width="49.229" y="325.46" x="195.8"/>
+  <rect height="157.76" width="46.991" y="326.58" x="253.98"/>
+  <rect height="133.14" width="39.159" y="181.13" x="137.62"/>
+  <path d="m175.66 181.13s10.07-11.19 20.14-8.95 0-19.02 0-19.02l-34.69 3.36c-14.55 7.8-14.95 8.15-19.39 13.42-3.35 5.6-4.1 13.43-4.1 13.43l38.04-2.24z"/>
+  <g transform="matrix(-1 0 0 1 496.64 0)">
+   <rect height="133.14" width="39.159" y="181.13" x="137.62"/>
+   <path d="m175.66 181.13s10.07-11.19 20.14-8.95 0-19.02 0-19.02l-34.69 3.36c-14.55 7.8-14.95 8.15-19.39 13.42-3.35 5.6-4.1 13.43-4.1 13.43l38.04-2.24z"/>
+  </g>
+  <path d="m195 326.25l-55 68.75h216.25l-57.5-68.75h-103.75z" transform="matrix(1 0 0 1.9636 0 -363.14)" stroke="#000000" stroke-width="1pt"/>
+ </g>
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <Work rdf:about="">
+   <dc:title>Clipart by Nicu Buculei - head1</dc:title>
+   <dc:rights>
+    <Agent>
+     <dc:title>Nicu Buculei</dc:title>
+    </Agent>
+   </dc:rights>
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+   <license rdf:resource="http://web.resource.org/cc/PublicDomain"/>
+  </Work>
+  <License rdf:about="http://web.resource.org/cc/PublicDomain">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+   <permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+  </License>
+ </rdf:RDF>
+</svg>

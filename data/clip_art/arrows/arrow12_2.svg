@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 20010904//EN'  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg xmlns="http://www.w3.org/2000/svg" height="400pt" width="400pt" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g fill-rule="evenodd">
+  <path d="m193.83 68.515l15.58-17.532s14.61 0 27.27-4.87c12.67-4.87 39.94-3.896 39.94-3.896l-2.92 367.2-6.82 22.4s-51.62-39.94-51.62-41.88c0-1.95-21.43-321.42-21.43-321.42z" transform="matrix(-1 0 0 1 470.44 0)" fill="#996600"/>
+  <path d="m194.8 68.515l13.64 364.28 58.44-1.95-4.87-370.13c0 0.003-29.22-3.893-35.07 0.977-5.84 4.87-34.09 7.792-32.14 6.818z" transform="matrix(-1 0 0 1 470.44 0)" fill="#996600"/>
+  <path d="m19.48 134.75l20.454-12.67s172.4-8.76 181.17-7.79c8.77 0.98 8.77 4.87 14.61 4.87s112.01 2.92 120.78 0.98c8.76-1.95 70.13 4.87 76.94 7.79 6.82 2.92 55.52 52.6 55.52 53.57s-2.92 16.56-2.92 16.56-403.24 28.24-404.21 28.24c-0.977 0-62.34-90.58-62.34-91.55z" transform="matrix(-1 0 0 1 495.77 -15.584)" fill="#996600"/>
+  <path d="m36.038 134.75s185.06-11.69 187.98-4.87 18.51 1.94 21.43 1.94 107.14-2.92 118.83-0.97 57.46 8.77 60.39 8.77c2.92 0 61.36 56.49 61.36 57.46 0 0.98-54.55 74.03-54.55 74.03s-216.22 11.69-224.02 6.82c-7.79-4.87-28.24-2.93-50.64 0.97-22.41 3.9-130.52 4.87-134.42 7.79-3.894 2.93-9.738 2.93-9.738 2.93s12.662-32.15 15.584-38.97c2.922-6.81 12.662-16.55 14.61-21.42s-0.974-24.35-6.818-37.99-13.636-23.38-13.636-39.93c0-16.56-2.922-16.56-2.922-16.56h16.558z" transform="matrix(-1 0 0 1 495.77 -15.584)" fill="#996600"/>
+ </g>
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <Work rdf:about="">
+   <dc:title>Clipart by Nicu Buculei - arrow08_4</dc:title>
+   <dc:rights>
+    <Agent>
+     <dc:title>Nicu Buculei</dc:title>
+    </Agent>
+   </dc:rights>
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+   <license rdf:resource="http://web.resource.org/cc/PublicDomain"/>
+  </Work>
+  <License rdf:about="http://web.resource.org/cc/PublicDomain">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+   <permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+  </License>
+ </rdf:RDF>
+</svg>

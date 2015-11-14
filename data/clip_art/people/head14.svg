@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 20010904//EN'  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg xmlns="http://www.w3.org/2000/svg" height="400pt" width="400pt" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g fill-rule="evenodd" stroke="#000000" stroke-width="1pt">
+  <path d="m60 142.5c164.17 26.25 273.33 105 290 221.25 77.5-157.5-131.25-290-290-221.25z" transform="translate(22.5 18.75)" fill="#330000"/>
+  <path d="m245 52.5c-156.25-7.5-222.5 276.25-83.75 350 213.75 35 290-341.25 83.75-350z" transform="translate(22.5 18.75)" fill="#ffcccc"/>
+  <path d="m353.55 265.77c0-1.77 7.07-17.68 6.19-35.35 32.7-9.73 13.26 45.07-6.19 35.35z" transform="translate(21.616 25.821)" fill="#ffcccc"/>
+  <path d="m296.1 430.17c-10.61-6.18-18.56 5.31-6.19 13.26 10.61 4.42 13.26-11.49 6.19-13.26z" transform="translate(89.675 -141.23)" fill="#00ff00"/>
+  <path d="m60 143.75c152.5-30 267.5 47.5 292.5 100s-2.5 121.25-2.5 121.25c151.25-205-83.75-497.5-290-221.25z" transform="translate(23.384 16.098)" fill="#333300"/>
+  <path d="m235 200s53.75-2.5 60 26.25-58.75-8.75-60-26.25z" transform="matrix(.96877 -.24798 .24798 .96877 -150.86 62.587)" fill="#ffffff"/>
+  <path d="m235 200s80.3 19.78 52.68 34.7c-28.5 8.24-51.43-17.2-52.68-34.7z" transform="matrix(-.99677 .080260 -.080260 -.99677 547.76 426.06)" fill="#ffffff"/>
+ </g>
+ <path d="m182.5 222.5s-5 8.75-12.5 17.5c-4.85 8.75-4.27 4.91-7.5 13.75-5.88 3.54 13.75 2.5 12.5 7.5" transform="translate(22.5 18.75)" stroke="#000000" stroke-width="1pt" fill="none"/>
+ <g fill-rule="evenodd" stroke="#000000" stroke-width="1pt">
+  <path d="m132.35 310s41.84 17.56 85.15 23.75c-35.36 0-64.82 2.1-85.15-23.75z" transform="translate(21.616 27.589)" fill="#ff0000"/>
+  <path d="m130.82 318.8c3.3 2.29 69.65 25 85.73 23.11 0.89 0-30.05-20.45-48.61-18.69-10.61-9.72-33.59-5.3-37.12-4.42z" transform="translate(22.5 18.75)" fill="#ff0000"/>
+  <path d="m147.98 176.62c12.95 3.81 13.2 28.43-2.28 23.86-9.14-1.52-11.17-27.16 2.28-23.86z" transform="translate(13.974 17.329)" fill="#00cc00"/>
+  <path d="m147.98 176.62c8.6 3.26 11.03 27.92-2.28 23.35-14.58-2.06-12.8-29.91 2.28-23.35z" transform="translate(121.14 38.159)" fill="#00cc00"/>
+  <path d="m147.73 184.74c-6.88-1.23-6.46 9.86-1.02 10.66 6.71 5.05 8.89-9.64 1.02-10.66z" transform="translate(13.974 17.329)"/>
+  <path d="m146.97 184.24c-7-2.61-5.7 10.69-0.26 11.16 7.8 2.33 7.04-10.69 0.26-11.16z" transform="translate(118.92 37.869)"/>
+  <path d="m98.481 166.47s73.999-15.23 85.419 5.44c-26.11-7.07-86.507-4.35-85.419-5.44z" transform="translate(22.5 18.75)" fill="#333300"/>
+  <path d="m304.15 218.7s-59.85-63.11-84.34-44.07c35.91 7.07 85.97 44.62 84.34 44.07z" transform="translate(22.5 18.75)" fill="#333300"/>
+ </g>
+ <path d="m243.94 196.86c-6.64-0.48-8.53 8.05 0 9.47 5.68 1.42 8.52-9 0-9.47z" fill-rule="evenodd" fill-opacity=".66667" transform="translate(22.5 18.75)" fill="#ffffff"/>
+ <path d="m243.94 196.86c-6.64-0.48-8.53 8.05 0 9.47 5.68 1.42 8.52-9 0-9.47z" fill-rule="evenodd" fill-opacity=".66667" transform="translate(-82.653 -1.1438)" fill="#ffffff"/>
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <Work rdf:about="">
+   <dc:title>Clipart by Nicu Buculei - head1</dc:title>
+   <dc:rights>
+    <Agent>
+     <dc:title>Nicu Buculei</dc:title>
+    </Agent>
+   </dc:rights>
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+   <license rdf:resource="http://web.resource.org/cc/PublicDomain"/>
+  </Work>
+  <License rdf:about="http://web.resource.org/cc/PublicDomain">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+   <permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+  </License>
+ </rdf:RDF>
+</svg>

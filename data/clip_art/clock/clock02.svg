@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="400pt" width="400pt">
+ <g fill-rule="evenodd">
+  <path d="m487.19 224.67a211.85 211.85 0 1 0 -423.71 0 211.85 211.85 0 1 0 423.7 0h-211.85z" transform="matrix(1.1212 0 0 1.1177 -57.207 -.60280)"/>
+  <path d="m487.19 224.67a211.85 211.85 0 1 0 -423.71 0 211.85 211.85 0 1 0 423.7 0h-211.85z" transform="matrix(1.0976 0 0 1.0941 -51.959 4.6997)" fill="#0000000ff"/>
+  <path d="m422.97 255.67a158.7 149.11 0 1 0 -317.41 0 158.7 149.11 0 1 0 317.4 0h-158.7z" transform="matrix(1.2605 0 0 1.354 -81.379 -96.033)" fill="#ffffff"/>
+  <path d="m266.48 244.6a16.24 16.24 0 1 0 -32.48 0 16.24 16.24 0 1 0 32.48 0h-16.24z" transform="matrix(1.0227 0 0 1 -6.0563 -.73814)"/>
+  <path d="m262.05 245.34a10.703 10.334 0 1 0 -21.41 0 10.703 10.334 0 1 0 21.41 0h-10.71z" transform="matrix(1.3103 0 0 1.3469 -79.848 -86.474)" fill="#0000000ff"/>
+ </g>
+ <g fill="#ffffff" fill-rule="evenodd">
+  <path d="m235.3 246.47c-2.76-9.54 8.48-19.5 17.38-16.53 4.24 5.51-12.29 19.08-17.38 16.53z" fill-opacity=".5"/>
+  <path d="m37.872 343.75c-31.622-77.5-25.372-152.5 14.628-216.25 38.75-51.25 92.2-115.4 220-108.38-127.85 1.412-191.25 82.13-212.5 117.13-18.75 33.75-50.878 81.25-22.128 207.5z" fill-opacity=".5"/>
+  <path d="m253.75 453.75c77.5-16.25 172.5-82.5 181.25-126.25 16.25-53.75-120-115-21.25-198.75 63.75 83.75 44.63 175.99 36.25 196.25-10.08 26.33-60 127.5-196.25 128.75z" fill-opacity=".49630"/>
+ </g>
+ <path d="m122.06 405.16c-68.455-58.55-80.001-156.69-65.981-202.87 22.267-54.43 56.081-156.7 221.84-154.22-159.99-17.32-221.84 119.58-229.26 152.57-8.25 16.49-23.094 121.23 73.4 204.52z" fill-opacity=".25" fill-rule="evenodd" fill="#000000"/>
+ <path d="m216.25 483.75c67.5 8.75 203.75-21.25 245-128.75 62.5-143.75 2.5-202.5-38.75-266.25 72.5 106.25 65 196.25 30 263.75-40 77.5-113.75 128.75-236.25 131.25z" fill-opacity=".24706" fill-rule="evenodd" fill="#000000"/>
+ <g fill-rule="evenodd" stroke="#000000" stroke-width="1pt" fill="#0000000ff">
+  <path d="m243.12 50h11.88v25l-11.88-0.625v-24.375z"/>
+  <path d="m243.12 50h11.88v25l-11.88-0.625v-24.375z" transform="translate(1.875 375.63)"/>
+  <path d="m243.12 50h11.88v25l-11.88-0.625v-24.375z" transform="matrix(6.123e-17 1 -1 6.123e-17 499.69 -4.0627)"/>
+  <path d="m243.12 50h11.88v25l-11.88-0.625v-24.375z" transform="matrix(6.123e-17 1 -1 6.123e-17 128.44 -3.4377)"/>
+  <path d="m243.12 50h11.88v25l-11.88-0.625v-24.375z" transform="matrix(.84150 .54026 -.54026 .84150 171.99 -97.778)"/>
+  <path d="m243.12 50h11.88v25l-11.88-0.625v-24.375z" transform="matrix(.84150 .54026 -.54026 .84150 -28.006 217.85)"/>
+  <path d="m243.12 50h11.88v25l-11.88-0.625v-24.375z" transform="matrix(-.54026 .84150 -.84150 -.54026 283.26 -28.488)"/>
+  <path d="m243.12 50h11.88v25l-11.88-0.625v-24.375z" transform="matrix(-.54026 .84150 -.84150 -.54026 597.63 172.14)"/>
+  <path d="m243.12 50h11.88v25l-11.88-0.625v-24.375z" transform="matrix(.49274 .87018 -.87018 .49274 345.74 -86.978)"/>
+  <path d="m243.12 50h11.88v25l-11.88-0.625v-24.375z" transform="matrix(.49274 .87018 -.87018 .49274 14.494 81.147)"/>
+  <path d="m243.12 50h11.88v25l-11.88-0.625v-24.375z" transform="matrix(-.87018 .49274 -.49274 -.87018 414.38 14.436)"/>
+  <path d="m243.12 50h11.88v25l-11.88-0.625v-24.375z" transform="matrix(-.87018 .49274 -.49274 -.87018 586.25 347.56)"/>
+ </g>
+ <g fill-rule="evenodd">
+  <path d="m235.8 227.64c8.26-6.25 21.21-4.47 26.12 0 11.29-27.55-8.53-136.12-12.86-148.22-5 10-26.42 121.21-13.26 148.22z" stroke="#000000" stroke-width="1pt" fill="#0000000ff"/>
+  <path d="m236.14 223.06c-7.62-20.68 9.25-134.4 12.51-133.85 0 17.95 7.62 147.99-12.51 133.85z" fill-opacity=".49804" fill="#ffffff"/>
+ </g>
+ <g fill-rule="evenodd" transform="matrix(.69118 1.0525 -.46930 .30820 200.33 -96.171)">
+  <path d="m235.8 227.64c8.26-6.25 21.21-4.47 26.12 0 11.29-27.55-8.53-136.12-12.86-148.22-5 10-26.42 121.21-13.26 148.22z" stroke="#000000" stroke-width="1pt" fill="#0000000ff"/>
+  <path d="m236.14 223.06c-7.62-20.68 9.25-134.4 12.51-133.85 0 17.95 7.62 147.99-12.51 133.85z" fill-opacity=".49804" fill="#ffffff"/>
+ </g>
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <Work rdf:about="">
+   <dc:title>Clipart by Nicu Buculei - clock12</dc:title>
+   <dc:rights>
+    <Agent>
+     <dc:title>Nicu Buculei</dc:title>
+    </Agent>
+   </dc:rights>
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+   <license rdf:resource="http://web.resource.org/cc/PublicDomain"/>
+  </Work>
+  <License rdf:about="http://web.resource.org/cc/PublicDomain">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+   <permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+  </License>
+ </rdf:RDF>
+</svg>
